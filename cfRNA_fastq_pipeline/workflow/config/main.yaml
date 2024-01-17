@@ -1,0 +1,93 @@
+ ### LOCATIIONS ###
+DATA: /workdir/cfrna/data/
+OUTPUT: output/
+SAMPLE_LOC: data/samples/ 
+
+MASTER_PATH: /workdir/cfrna/
+
+### SOFTWARE ###
+SPRING: software/SPRING/build/spring
+STAR: software/STAR-2.7.8a/bin/Linux_x86_64/STAR
+PICARD: software/picard.jar
+FLASH: software/FLASH/flash
+SEQKIT: software/seqkit
+HSBLASTN: software/hs-blastn-src/hs-blastn
+SEQTK: software/seqtk/seqtk
+BBDUK: software/bbmap/bbduk.sh
+BB_REPAIR: software/bbmap/repair.sh
+CLUMPIFY: software/bbmap/clumpify.sh
+
+
+GRAMMY_POST: software/GRAMMy/grammy/grammy_gdt.py
+GRAMMY_RDT: software/GRAMMy/grammy/grammy_rdt.py
+GRAMMY_PRE: software/GRAMMy/grammy/grammy_pre.py
+GRAMMY_EM: software/GRAMMy/grammy/grammy_em.py
+
+TRIMMOMATIC: /programs/trimmomatic/trimmomatic-0.39.jar
+QUALIMAP: /programs/qualimap_v2.2.1/qualimap
+BOWTIE2: /programs/bowtie2-2.4.3-linux-x86_64/bowtie2
+
+### SCRIPTS ###
+BP_DECON: workflow/scripts/BayesP_deconovlution.R
+EX_BRACKEN: workflow/scripts/extend_bracken.py
+
+### REFERENCES ###
+TRUSEQ_ADAPT: references/adapters/TruSeq_CD-UD_adapters.fa
+DECON_REF_COUNTS: /workdir/cjl332/deconvolution/rna_deconvolution/validation/simulation_testing/references/tabsap_subCells-allGenes_thresh-100000.COUNTS.csv
+DECON_REF_META: /workdir/cjl332/deconvolution/rna_deconvolution/validation/simulation_testing/references/tabsap_subCells-allGenes_thresh-100000.META.csv
+
+# HG38
+rRNA_HG38: references/human/rRNA/human_rrna
+REF_GENOME_HG38: references/human/hg38/GRCh38.primary_assembly.genome.fa
+STAR_HG38: references/human/hg38/star/
+ANNOTATION_HG38: references/human/hg38/gencode.v38.primary_assembly.annotation.gtf
+ANNOTATION_AUTO_HG38: references/human/hg38/gencode.v38.primary_assembly.AUTOSOME.annotation.gtf
+GENES_GTF_HG38: references/human/hg38/gencode.v38.genes.gtf
+EXONS_HG38: references/human/hg38/bed_regions/gencode_v38_exon.bed
+INTRONS_HG38: references/human/hg38/bed_regions/gencode_v38_intron.bed
+INTERGENIC_HG38: references/human/hg38/bed_regions/gencode_v38_intergenic.bed
+RSEM_HG38: references/human/hg38/rsem_star_ref/hg38.gencode
+DECON_HG38: references/human/tabula-sapiens/figshare/adata_raw_wilcoxon_x.csv
+DECON_META_HG38: references/human/tabula-sapiens/figshare/adata_metadata.csv
+rRNA_HG38_BED: references/human/hg38/rRNA_regions.bed
+TAR_HG38_GTF: /workdir/cjl332/side_projects/utar_cfrna/from_michael/TAR_reads.bed.gz.noDir.gencode.v38.primary_assembly.annotation.COPIED.refFlat.gtf
+BIOTYPE_KEY_HG38: references/human/hg38/gencode.biotype.key.tsv
+
+# STAR_HG38: references/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ref_genome.fa.star.idx
+# ANNOTATION_HG38: references/hg38/gencode.v37.annotation.gff3
+# GENES_GTF_HG38: references/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ref_annot.genes.gtf
+
+# GRCm38
+rRNA_GRCm38: references/mouse/rRNA/GRCm38_rRNA
+REF_GENOME_GRCm38: /fs/cbsuvlaminck2/workdir/mm2937/References/ReoMM/Mus_musculus.GRCm38.dna.toplevel.fa
+STAR_GRCm38: references/mouse/GRCm38/star/
+ANNOTATION_GRCm38: /fs/cbsuvlaminck2/workdir/mm2937/References/ReoMM/GRCm38_and_ReoT1L/genes/genes.gtf
+ANNOTATION_AUTO_GRCm38: references/mouse/GRCm38/genes.AUTOSOME.gtf
+GENES_GTF_GRCm38: references/mouse/genes.genes.gtf
+EXONS_GRCm38: references/mouse/GRCm38/bed_regions/ensembl_GRCm38_exon.bed
+INTRONS_GRCm38: references/mouse/GRCm38/bed_regions/ensembl_GRCm38_intron.bed
+INTERGENIC_GRCm38: references/mouse/GRCm38/bed_regions/ensembl_GRCm38_intergenic.bed
+RSEM_GRCm38: references/mouse/GRCm38/rsem_star_ref/GRCm38.gencode
+DECON_GRCm38: references/mouse/tabula_muris/deconv_mouse_infection_count_matrix.csv
+DECON_META_GRCm38: references/mouse/tabula_muris/mouse_infection_deconv_meta_data.csv
+
+
+# Metagenomics
+KRAKEN_DB: references/kraken/kraken_std_database
+EX_BRACKEN: workflow/scripts/extend_bracken.py
+
+
+# TRUSEQ_ADAPT: references/TruSeq_CD-UD_adapters.fa
+BOTH_REF: references/metagenomics/both.fa
+GRAMMY_REF_FASTA:  references/grammy/NCBIGenomes06_CT
+LUTGrammy: references/metagenomics/taxids_names_lengths_tax.tab
+
+### OLD NAMES ###
+GENCODE_ANT: references/hg38/gencode.v37.annotation.gff3
+rRNA_HUMAN: references/rRNA_fa/bt2_ref/human_all_rRNA
+COVID_REF: references/covid19_fa/covid19
+STAR_IDX: references/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ref_genome.fa.star.idx
+GENES_GTF: references/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ref_annot.genes.gtf
+
+
+

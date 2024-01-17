@@ -1,0 +1,11 @@
+name: cfrna_pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10.0
+  - r-base=4.1.1
+  - snakemake=5.3.0
+  - umi_tools=1.0.1
+  - r-devtools
+  

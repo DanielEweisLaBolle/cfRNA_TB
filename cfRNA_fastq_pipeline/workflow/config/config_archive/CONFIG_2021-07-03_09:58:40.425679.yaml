@@ -1,0 +1,11 @@
+SAMPLES: [UCSF_control.b1]
+
+PROJECT: 
+    UCSF_control.b1: MISC
+
+PREP: 
+    UCSF_control.b1: SMARTer_pico_v2
+
+REF_DICT: 
+    UCSF_control.b1: HG38
+

@@ -1,0 +1,291 @@
+####################################################################################
+# PREPROCESS
+# fastq files are kept in spring format to reduce space. After decompression 
+# trimming is done using trim galore which will produce QC files on the fastq inputs
+
+# rule decompress:
+#     input:
+#         data = SAMPLE_LOC+'{sample}x.spring'
+#     output:
+#         r1 = SAMPLE_LOC+'{sample}_R1.fastq.gz',
+#         r2 = SAMPLE_LOC+'{sample}_R2.fastq.gz'
+#     threads: 10
+#     shell:
+#         """
+#         {SPRING} -d -i {input.data} -o {output.r1} {output.r2} -g
+#         """
+
+rule trim:
+    input: 
+        r2 = SAMPLE_LOC+'{sample}_R2.fastq.gz'
+    output:
+        r2_trim = temp(SAMPLE_LOC+'{sample}_R2.headcrop.fastq.gz')
+    threads: trim_threads
+    shell:
+        """
+        java -jar /programs/trimmomatic/trimmomatic-0.39.jar \
+            SE -threads {threads} \
+            {input.r2} \
+            {output.r2_trim}  \
+            HEADCROP:3 
+        """  
+
+####################################################################################
+# ALIGNMENT
+# fastqs are first aligned to human rRNA sequences. Reads that do not align are then
+# used for further down stream anlysis. This will reduce the amount of rRNA 
+# transcripts and help with batch effects caused by variation in cfRNA degredation 
+# efficienty
+
+rule rRNA_align:
+    input:
+        r1 = SAMPLE_LOC+'{sample}_R1.fastq.gz',
+        r2 = SAMPLE_LOC+'{sample}_R2.headcrop.fastq.gz'
+    output:
+        rRNA_bam = OUTPUT+"{project}/{sample}/{sample}_rRNA.bam",
+        clean_r1 = temp(OUTPUT+'{project}/{sample}/{sample}_clean_R1.fastq.gz'),
+        clean_r2 = temp(OUTPUT+'{project}/{sample}/{sample}_clean_R2.fastq.gz'),
+        rRNA_bwt_report = OUTPUT+"{project}/{sample}/{sample}_bt2.output"
+    params:
+        unmapped_pe = OUTPUT+'{project}/{sample}/{sample}_clean_R%.fastq.gz',
+        rRNA_REF = lambda w: config["rRNA_"+config['REF_DICT'][str(w.sample)]]
+    threads: 5
+    log: "logs/{project}/{sample}.rRNA.log"
+    conda:
+        "../envs/cfRNA.yaml"
+    shell:
+        """
+        /programs/bowtie2-2.4.3-linux-x86_64/bowtie2 -x {params.rRNA_REF} \
+            -1 {input.r1} -2 {input.r2} \
+             -q \
+            --dovetail \
+            --un-conc-gz {params.unmapped_pe} 2> {output.rRNA_bwt_report} | samtools view -f3 -bh - > {output.rRNA_bam}
+        """ #-p {threads}
+
+#clean_r1 = OUTPUT+'{project}/{sample}/{sample}_clean_R1.fastq.gz',
+#clean_r2 = OUTPUT+'{project}/{sample}/{sample}_clean_R2.fastq.gz'
+
+#clean_r1 = SAMPLE_LOC+'{sample}_R1.fastq.gz',
+#clean_r2 = SAMPLE_LOC+'{sample}_R2.headcrop.fastq.gz'
+
+rule align:
+    input:
+        clean_r1 = OUTPUT+'{project}/{sample}/{sample}_clean_R1.fastq.gz',
+        clean_r2 = OUTPUT+'{project}/{sample}/{sample}_clean_R2.fastq.gz'
+    output:
+        bam = OUTPUT+'{project}/{sample}/{sample}_Aligned.sortedByCoord.out.bam',
+        u_1= OUTPUT+'{project}/{sample}/{sample}_unmapped_R1.fastq',
+        u_2 = OUTPUT+'{project}/{sample}/{sample}_unmapped_R2.fastq',
+    params:
+        prefix = OUTPUT+"{project}/{sample}/{sample}_",
+        STAR = config["STAR"],
+        STAR_IDX = lambda w: config["STAR_"+config['REF_DICT'][w.sample]]
+    threads: STAR_threads
+    log: 'logs/{project}/{sample}.alignment.log'
+    conda:
+        "../envs/cfRNA.yaml"
+    shell:
+        """
+            {params.STAR} \
+            --genomeDir {params.STAR_IDX} \
+            --readFilesIn {input.clean_r1} {input.clean_r2} \
+            --readFilesCommand zcat \
+            --runMode alignReads \
+            --runThreadN {threads} \
+            --outSAMtype BAM SortedByCoordinate \
+            --outFileNamePrefix {params.prefix} \
+            --outReadsUnmapped Fastx \
+           --outFilterMismatchNoverLmax 0.05 \
+           --outFilterMatchNmin 10 \
+           --outFilterScoreMinOverLread 0 \
+           --outFilterMatchNminOverLread 0 \
+           --outMultimapperOrder Random 
+           
+            mv {params.prefix}Unmapped.out.mate1 {output.u_1}
+            mv {params.prefix}Unmapped.out.mate2 {output.u_2}
+
+        """
+#\
+# 		   --sjdbGTFtagExonParentGene gene_name
+
+####################################################################################
+#### INDEX BAM
+
+rule samtools_index:
+    input:
+        bam = OUTPUT+'{project}/{sample}/{sample}_Aligned.sortedByCoord.out.bam'
+    output:
+        bam_bai = temp(OUTPUT+'{project}/{sample}/{sample}_Aligned.sortedByCoord.out.bam.bai')
+    threads: qc_threads
+    log: "logs/{project}/{sample}.align_index.log"
+    conda:
+        "../envs/cfRNA.yaml"
+    shell:
+        "samtools index -@ {threads} {input.bam} > {output.bam_bai}"
+
+#mv {output.bam_folder}/Aligned.sortedByCoord.out.bam {output.bam_folder}/{{sample}}_Aligned.sortedByCoord.out.bam
+#samtools index {output.bam_folder}/{{sample}}_Aligned.sortedByCoord.out.bam
+        
+
+####################################################################################
+##### REFINE ALIGNMENT 
+
+# rule addorreplacegroups:
+#     input:
+#         bam = OUTPUT+'{project}/{sample}/{sample}_Aligned.sortedByCoord.out.bam',
+#         bam_bai = OUTPUT+'{project}/{sample}/{sample}_Aligned.sortedByCoord.out.bam.bai'
+#     output:
+#         rg_bam = temp(OUTPUT+'{project}/{sample}/{sample}_rg_added_sorted.bam')
+#     params:
+#         PICARD = config['PICARD']
+#     threads: picard_threads
+#     log: "logs/{project}/{sample}.addorreplacegroups.log"
+#     conda:
+#         "../envs/cfRNA.yaml"
+#     shell:
+#         "java -XX:ParallelGCThreads={threads} -XX:ConcGCThreads={threads} -Xmx8000M -jar {params.PICARD} \
+#             AddOrReplaceReadGroups \
+#             I={input.bam} \
+#             O={output.rg_bam} \
+#             SO=coordinate \
+#             RGID=id RGLB=library \
+#             RGPL=platform RGPU=machine RGSM=sample"      
+
+####################################################################################
+# REMOVE DUPLICATES
+# cfRNA is inherintly low complexity, thus removing duplicates is absolutely crucial
+# because these reads do not have a UMI we will be using PICARD remove dups
+
+rule markduplicates:
+    input:
+        rg_bam = OUTPUT+'{project}/{sample}/{sample}_rg_added_sorted.bam'
+    output:
+        dedup_bam = OUTPUT + '{project}/{sample}/{sample}_sort_dedup.bam',
+        dedup_bai = OUTPUT + '{project}/{sample}/{sample}_sort_dedup.bam.bai',
+        metrics = OUTPUT + '{project}/{sample}/{sample}_mark_dup_metrics.txt'
+    params:
+        PICARD = config["PICARD"]
+    threads: picard_threads
+    log: 'logs/{project}/{sample}.rmdup.log'
+    conda:
+        "../envs/cfRNA.yaml"
+    shell:
+        """
+         java {params.PICARD} MarkDuplicates \
+            I={input.rg_bam} \
+            O={output.dedup_bam} \
+            M={output.metrics} \
+            REMOVE_DUPLICATES=true
+            
+        samtools index {output.dedup_bam}
+        """  
+		
+		java -Xmx3g -jar {picard} \
+    INPUT={input} \
+    OUTPUT={output} \
+    METRICS_FILE=genecounts_rmdp/{wildcards.sample}_bam/{wildcards.sample}.rmd.metrics.text \
+    REMOVE_DUPLICATES=trueultimap
+
+####################################################################################
+# COUNT READS
+# Transcript and exon counts are counted using htseq-count. These counts are then 
+# compiled into a single table for easy integration into DEA
+
+rule htseq_count:
+    input:
+        dedup_bam = OUTPUT + '{project}/{sample}/{sample}_sort_dedup.bam'
+    output:
+        counts = OUTPUT + '{project}/{sample}/{sample}_htseq_counts.txt'
+    log: 'logs/{project}/{sample}.htseq.log'
+    params:
+        ANNOTATION = lambda w: config["ANNOTATION_"+config['REF_DICT'][w.sample] ]
+    conda:
+        "../envs/cfRNA.yaml"
+    shell:
+        """
+        export PYTHONPATH=/programs/HTSeq-0.11.2/lib64/python3.6/site-packages/
+        export PATH=/programs/HTSeq-0.11.2/bin:$PATH
+
+        htseq-count \
+                -f bam \
+                -r pos \
+                -s reverse \
+                -m intersection-strict \
+                -i gene_name \
+                {input} \
+                {params.ANNOTATION} > {output}      
+        """
+
+        
+rule feature_counts:
+    input:
+        dedup_bam = OUTPUT + '{project}/{sample}/{sample}_sort_dedup.bam',
+    output:
+        counts = OUTPUT + '{project}/{sample}/{sample}_feature_counts.txt',
+        summary = OUTPUT + '{project}/{sample}/{sample}_feature_counts.txt.summary'
+    params:
+        ANNOTATION = lambda w: config["ANNOTATION_"+config['REF_DICT'][w.sample] ]
+    threads: featureCountThreads
+    log: "logs/{project}/{sample}.featureCounts.log"
+    conda:
+        "../envs/cfRNA.yaml"
+    shell:
+        """
+        featureCounts -p -T {threads} -s 2 -O --fraction \
+                  -a {params.ANNOTATION} \
+                  -o {output.counts} \
+                  {input.dedup_bam}
+
+            sed -i 's/\_sort\_dedup//g' {output.summary}
+        """
+
+
+
+# rule trim:
+#     input: 
+#         r1 = SAMPLE_LOC+'{sample}_R1.fastq.gz',
+#         r2 = SAMPLE_LOC+'{sample}_R2.fastq.gz'
+#     output:
+#         r1_trim = temp(OUTPUT+'{project}/{sample}/{sample}_R1_trimmed.fq'),
+#         r2_trim = temp(OUTPUT+'{project}/{sample}/{sample}_R2_trimmed.fq'),
+#         r1_unpaired = temp(OUTPUT+'{project}/{sample}/{sample}_R1_unpaired_trimmed.fq'),
+#         r2_unpaired = temp(OUTPUT+'{project}/{sample}/{sample}_R2_unpaired_trimmed.fq'),
+#         trim_log = OUTPUT+'{project}/{sample}/{sample}_trimmomcatic.log'
+#     threads: trim_threads
+#     params:
+#         output_dir = OUTPUT+"{project}/{sample}/"
+#     log: 'logs/{project}/{sample}.trim.log'
+#     shell:
+#         """
+#         java -jar /programs/trimmomatic/trimmomatic-0.39.jar \
+#             PE -phred33 -threads {threads} -trimlog {output.trim_log}\
+#             {input.r1} {input.r2} \
+#             {output.r1_trim} {output.r1_unpaired} \
+#             {output.r2_trim} {output.r2_unpaired} \
+#             ILLUMINACLIP:/programs/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 \
+#             LEADING:3 TRAILING:3 \
+#             SLIDINGWINDOW:4:15 MINLEN:18
+
+#         """   
+
+# rule trim:
+#     input: 
+#         r1 = SAMPLE_LOC+'{sample}_R1.fastq.gz',
+#         r2 = SAMPLE_LOC+'{sample}_R2.fastq.gz'
+#     output:
+#         r1_trim = temp(OUTPUT+'{project}/{sample}/{sample}_R1_trimmed.fq'),
+#         r2_trim = temp(OUTPUT+'{project}/{sample}/{sample}_R2_trimmed.fq'),
+#         r1_unpaired = temp(OUTPUT+'{project}/{sample}/{sample}_R1_unpaired_trimmed.fq'),
+#         r2_unpaired = temp(OUTPUT+'{project}/{sample}/{sample}_R2_unpaired_trimmed.fq'),
+#         trim_log = OUTPUT+'{project}/{sample}/{sample}_trimmomcatic.log'
+#     threads: trim_threads
+#     params:
+#         output_dir = OUTPUT+"{project}/{sample}/"
+#     log: 'logs/{project}/{sample}.trim.log'
+#     shell:
+#         """
+#         BBDUK in1={input.r1} in2={input.r2} out1={output.r1_trim} out2={output.r2_trim} -Xmx1g -threads={threads} ref=$ADAPTOR_SEQ maq=$MAQ entropy=$ENTROPY tbo tpe &>$LOG
+
+#         """       
+
+                   

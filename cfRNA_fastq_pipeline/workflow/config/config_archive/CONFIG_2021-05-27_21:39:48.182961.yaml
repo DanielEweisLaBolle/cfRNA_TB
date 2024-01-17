@@ -1,0 +1,176 @@
+SAMPLES: [BP6,BM10,BM13,BM20,OM17,OP11,OP9,OP15,OP14,BM18,BM29,OM14,OM6,OM12,OP13,BM21,BM9,BM17,BP2,OM26,OP10,OP18,OP19,BM16,Ctrl,LP,BM20_alisa,short_10000,SRR6481081,SRR6481082,SRR6481083,SRR6481084,SRR6481085,SRR6481086,SRR6481087,SRR6481088,SRR6481089,SRR6481090,SRR6481091,SRR6481092,SRR6481093,SRR6481094,SRR6481095]
+
+PROJECT: 
+    BP6: CHIPS
+
+    BM10: CHIPS
+
+    BM13: CHIPS
+
+    BM20: CHIPS
+
+    OM17: CHIPS
+
+    OP11: CHIPS
+
+    OP9: CHIPS
+
+    OP15: CHIPS
+
+    OP14: CHIPS
+
+    BM18: CHIPS
+
+    BM29: CHIPS
+
+    OM14: CHIPS
+
+    OM6: CHIPS
+
+    OM12: CHIPS
+
+    OP13: CHIPS
+
+    BM21: CHIPS
+
+    BM9: CHIPS
+
+    BM17: CHIPS
+
+    BP2: CHIPS
+
+    OM26: CHIPS
+
+    OP10: CHIPS
+
+    OP18: CHIPS
+
+    OP19: CHIPS
+
+    BM16: CHIPS
+
+    Ctrl: CHIPS
+
+    LP: CHIPS
+
+    BM20_alisa: CHIPS
+
+    short_10000: TEST
+
+    SRR6481081: SCI-REP_2018_NGO
+
+    SRR6481082: SCI-REP_2018_NGO
+
+    SRR6481083: SCI-REP_2018_NGO
+
+    SRR6481084: SCI-REP_2018_NGO
+
+    SRR6481085: SCI-REP_2018_NGO
+
+    SRR6481086: SCI-REP_2018_NGO
+
+    SRR6481087: SCI-REP_2018_NGO
+
+    SRR6481088: SCI-REP_2018_NGO
+
+    SRR6481089: SCI-REP_2018_NGO
+
+    SRR6481090: SCI-REP_2018_NGO
+
+    SRR6481091: SCI-REP_2018_NGO
+
+    SRR6481092: SCI-REP_2018_NGO
+
+    SRR6481093: SCI-REP_2018_NGO
+
+    SRR6481094: SCI-REP_2018_NGO
+
+    SRR6481095: SCI-REP_2018_NGO
+
+PREP: 
+    BP6: SMARTer_pico_v2
+
+    BM10: SMARTer_pico_v2
+
+    BM13: SMARTer_pico_v2
+
+    BM20: SMARTer_pico_v2
+
+    OM17: SMARTer_pico_v2
+
+    OP11: SMARTer_pico_v2
+
+    OP9: SMARTer_pico_v2
+
+    OP15: SMARTer_pico_v2
+
+    OP14: SMARTer_pico_v2
+
+    BM18: SMARTer_pico_v2
+
+    BM29: SMARTer_pico_v2
+
+    OM14: SMARTer_pico_v2
+
+    OM6: SMARTer_pico_v2
+
+    OM12: SMARTer_pico_v2
+
+    OP13: SMARTer_pico_v2
+
+    BM21: SMARTer_pico_v2
+
+    BM9: SMARTer_pico_v2
+
+    BM17: SMARTer_pico_v2
+
+    BP2: SMARTer_pico_v2
+
+    OM26: SMARTer_pico_v2
+
+    OP10: SMARTer_pico_v2
+
+    OP18: SMARTer_pico_v2
+
+    OP19: SMARTer_pico_v2
+
+    BM16: SMARTer_pico_v2
+
+    Ctrl: SMARTer_pico_v2
+
+    LP: SMARTer_pico_v2
+
+    BM20_alisa: SMARTer_pico_v2
+
+    short_10000: SMARTer_pico_v2
+
+    SRR6481081: SMARTer_pico_v2
+
+    SRR6481082: SMARTer_pico_v2
+
+    SRR6481083: SMARTer_pico_v2
+
+    SRR6481084: SMARTer_pico_v2
+
+    SRR6481085: SMARTer_pico_v2
+
+    SRR6481086: SMARTer_pico_v2
+
+    SRR6481087: SMARTer_pico_v2
+
+    SRR6481088: SMARTer_pico_v2
+
+    SRR6481089: SMARTer_pico_v2
+
+    SRR6481090: SMARTer_pico_v2
+
+    SRR6481091: SMARTer_pico_v2
+
+    SRR6481092: SMARTer_pico_v2
+
+    SRR6481093: SMARTer_pico_v2
+
+    SRR6481094: SMARTer_pico_v2
+
+    SRR6481095: SMARTer_pico_v2
+

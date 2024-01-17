@@ -1,0 +1,11 @@
+SAMPLES: ['T16.10000']
+
+PROJECT: 
+    'T16.10000': MOUSE_INF
+
+PREP: 
+    'T16.10000': SMARTer_pico_v3
+
+REF_DICT: 
+    'T16.10000': GRCm38
+

@@ -1,0 +1,9 @@
+name: cfRNA
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+- subread=2.0.1
+- r-ggplot2=3.0.0
+- r-data.table=1.12.2

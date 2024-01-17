@@ -1,0 +1,299 @@
+SAMPLES: ['205410941','205411499','PTCOV73','PTCOV79','PTCOV116','PTCOV82','205410750','PTCOV56','PTCOV60','PTCOV68','Sam-3261','PTCOV128','PTCOV131','PTCOV133','PTCOV138','PTCOV137','PTCOV142','PTCOV143','PTCOV165','PTCOV167','PTCOV159','PTCOV171','PTCOV174','9727','10005','08706','10002','O8582','70315','3424','11540','11554','11571','11832','11782','3059','3078','3526','3242','3227','3188','3310','3306','3290','3282','3502','3492','3483','3323']
+
+PROJECT: 
+    '205410941': MISC
+
+    '205411499': MISC
+
+    'PTCOV73': MISC
+
+    'PTCOV79': MISC
+
+    'PTCOV116': MISC
+
+    'PTCOV82': MISC
+
+    '205410750': MISC
+
+    'PTCOV56': MISC
+
+    'PTCOV60': MISC
+
+    'PTCOV68': MISC
+
+    'Sam-3261': MISC
+
+    'PTCOV128': MISC
+
+    'PTCOV131': MISC
+
+    'PTCOV133': MISC
+
+    'PTCOV138': MISC
+
+    'PTCOV137': MISC
+
+    'PTCOV142': MISC
+
+    'PTCOV143': MISC
+
+    'PTCOV165': MISC
+
+    'PTCOV167': MISC
+
+    'PTCOV159': MISC
+
+    'PTCOV171': MISC
+
+    'PTCOV174': MISC
+
+    '9727': MISC
+
+    '10005': MISC
+
+    '08706': MISC
+
+    '10002': MISC
+
+    'O8582': MISC
+
+    '70315': MISC
+
+    '3424': MISC
+
+    '11540': MISC
+
+    '11554': MISC
+
+    '11571': MISC
+
+    '11832': MISC
+
+    '11782': MISC
+
+    '3059': MISC
+
+    '3078': MISC
+
+    '3526': MISC
+
+    '3242': MISC
+
+    '3227': MISC
+
+    '3188': MISC
+
+    '3310': MISC
+
+    '3306': MISC
+
+    '3290': MISC
+
+    '3282': MISC
+
+    '3502': MISC
+
+    '3492': MISC
+
+    '3483': MISC
+
+    '3323': MISC
+
+PREP: 
+    '205410941': SMARTer_pico_v2
+
+    '205411499': SMARTer_pico_v2
+
+    'PTCOV73': SMARTer_pico_v2
+
+    'PTCOV79': SMARTer_pico_v2
+
+    'PTCOV116': SMARTer_pico_v2
+
+    'PTCOV82': SMARTer_pico_v2
+
+    '205410750': SMARTer_pico_v2
+
+    'PTCOV56': SMARTer_pico_v2
+
+    'PTCOV60': SMARTer_pico_v2
+
+    'PTCOV68': SMARTer_pico_v2
+
+    'Sam-3261': SMARTer_pico_v2
+
+    'PTCOV128': SMARTer_pico_v2
+
+    'PTCOV131': SMARTer_pico_v2
+
+    'PTCOV133': SMARTer_pico_v2
+
+    'PTCOV138': SMARTer_pico_v2
+
+    'PTCOV137': SMARTer_pico_v2
+
+    'PTCOV142': SMARTer_pico_v2
+
+    'PTCOV143': SMARTer_pico_v2
+
+    'PTCOV165': SMARTer_pico_v2
+
+    'PTCOV167': SMARTer_pico_v2
+
+    'PTCOV159': SMARTer_pico_v2
+
+    'PTCOV171': SMARTer_pico_v2
+
+    'PTCOV174': SMARTer_pico_v2
+
+    '9727': SMARTer_pico_v2
+
+    '10005': SMARTer_pico_v2
+
+    '08706': SMARTer_pico_v2
+
+    '10002': SMARTer_pico_v2
+
+    'O8582': SMARTer_pico_v2
+
+    '70315': SMARTer_pico_v2
+
+    '3424': SMARTer_pico_v2
+
+    '11540': SMARTer_pico_v2
+
+    '11554': SMARTer_pico_v2
+
+    '11571': SMARTer_pico_v2
+
+    '11832': SMARTer_pico_v2
+
+    '11782': SMARTer_pico_v2
+
+    '3059': SMARTer_pico_v2
+
+    '3078': SMARTer_pico_v2
+
+    '3526': SMARTer_pico_v2
+
+    '3242': SMARTer_pico_v2
+
+    '3227': SMARTer_pico_v2
+
+    '3188': SMARTer_pico_v2
+
+    '3310': SMARTer_pico_v2
+
+    '3306': SMARTer_pico_v2
+
+    '3290': SMARTer_pico_v2
+
+    '3282': SMARTer_pico_v2
+
+    '3502': SMARTer_pico_v2
+
+    '3492': SMARTer_pico_v2
+
+    '3483': SMARTer_pico_v2
+
+    '3323': SMARTer_pico_v2
+
+REF_DICT: 
+    '205410941': HG38
+
+    '205411499': HG38
+
+    'PTCOV73': HG38
+
+    'PTCOV79': HG38
+
+    'PTCOV116': HG38
+
+    'PTCOV82': HG38
+
+    '205410750': HG38
+
+    'PTCOV56': HG38
+
+    'PTCOV60': HG38
+
+    'PTCOV68': HG38
+
+    'Sam-3261': HG38
+
+    'PTCOV128': HG38
+
+    'PTCOV131': HG38
+
+    'PTCOV133': HG38
+
+    'PTCOV138': HG38
+
+    'PTCOV137': HG38
+
+    'PTCOV142': HG38
+
+    'PTCOV143': HG38
+
+    'PTCOV165': HG38
+
+    'PTCOV167': HG38
+
+    'PTCOV159': HG38
+
+    'PTCOV171': HG38
+
+    'PTCOV174': HG38
+
+    '9727': HG38
+
+    '10005': HG38
+
+    '08706': HG38
+
+    '10002': HG38
+
+    'O8582': HG38
+
+    '70315': HG38
+
+    '3424': HG38
+
+    '11540': HG38
+
+    '11554': HG38
+
+    '11571': HG38
+
+    '11832': HG38
+
+    '11782': HG38
+
+    '3059': HG38
+
+    '3078': HG38
+
+    '3526': HG38
+
+    '3242': HG38
+
+    '3227': HG38
+
+    '3188': HG38
+
+    '3310': HG38
+
+    '3306': HG38
+
+    '3290': HG38
+
+    '3282': HG38
+
+    '3502': HG38
+
+    '3492': HG38
+
+    '3483': HG38
+
+    '3323': HG38
+

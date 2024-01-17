@@ -1,0 +1,179 @@
+SAMPLES: ['PTCOV115','205411289','205410750','205410715','205410973','205410827','205411083','3287','3312','3265','70398','08706','10002','10024','11571','3441','11574','3444','11626','11603','69896','70053','CNH016','CNH024','11554','CNH008','CNH010','CNH018','CNH022']
+
+PROJECT: 
+    'PTCOV115': MISC
+
+    '205411289': MISC
+
+    '205410750': MISC
+
+    '205410715': MISC
+
+    '205410973': MISC
+
+    '205410827': MISC
+
+    '205411083': MISC
+
+    '3287': MISC
+
+    '3312': MISC
+
+    '3265': MISC
+
+    '70398': MISC
+
+    '08706': MISC
+
+    '10002': MISC
+
+    '10024': MISC
+
+    '11571': MISC
+
+    '3441': MISC
+
+    '11574': MISC
+
+    '3444': MISC
+
+    '11626': MISC
+
+    '11603': MISC
+
+    '69896': MISC
+
+    '70053': MISC
+
+    'CNH016': MISC
+
+    'CNH024': MISC
+
+    '11554': MISC
+
+    'CNH008': MISC
+
+    'CNH010': MISC
+
+    'CNH018': MISC
+
+    'CNH022': MISC
+
+PREP: 
+    'PTCOV115': SMARTer_pico_v2
+
+    '205411289': SMARTer_pico_v2
+
+    '205410750': SMARTer_pico_v2
+
+    '205410715': SMARTer_pico_v2
+
+    '205410973': SMARTer_pico_v2
+
+    '205410827': SMARTer_pico_v2
+
+    '205411083': SMARTer_pico_v2
+
+    '3287': SMARTer_pico_v2
+
+    '3312': SMARTer_pico_v2
+
+    '3265': SMARTer_pico_v2
+
+    '70398': SMARTer_pico_v2
+
+    '08706': SMARTer_pico_v2
+
+    '10002': SMARTer_pico_v2
+
+    '10024': SMARTer_pico_v2
+
+    '11571': SMARTer_pico_v2
+
+    '3441': SMARTer_pico_v2
+
+    '11574': SMARTer_pico_v2
+
+    '3444': SMARTer_pico_v2
+
+    '11626': SMARTer_pico_v2
+
+    '11603': SMARTer_pico_v2
+
+    '69896': SMARTer_pico_v2
+
+    '70053': SMARTer_pico_v2
+
+    'CNH016': SMARTer_pico_v2
+
+    'CNH024': SMARTer_pico_v2
+
+    '11554': SMARTer_pico_v2
+
+    'CNH008': SMARTer_pico_v2
+
+    'CNH010': SMARTer_pico_v2
+
+    'CNH018': SMARTer_pico_v2
+
+    'CNH022': SMARTer_pico_v2
+
+REF_DICT: 
+    'PTCOV115': HG38
+
+    '205411289': HG38
+
+    '205410750': HG38
+
+    '205410715': HG38
+
+    '205410973': HG38
+
+    '205410827': HG38
+
+    '205411083': HG38
+
+    '3287': HG38
+
+    '3312': HG38
+
+    '3265': HG38
+
+    '70398': HG38
+
+    '08706': HG38
+
+    '10002': HG38
+
+    '10024': HG38
+
+    '11571': HG38
+
+    '3441': HG38
+
+    '11574': HG38
+
+    '3444': HG38
+
+    '11626': HG38
+
+    '11603': HG38
+
+    '69896': HG38
+
+    '70053': HG38
+
+    'CNH016': HG38
+
+    'CNH024': HG38
+
+    '11554': HG38
+
+    'CNH008': HG38
+
+    'CNH010': HG38
+
+    'CNH018': HG38
+
+    'CNH022': HG38
+

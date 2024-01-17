@@ -1,0 +1,275 @@
+SAMPLES: ['gvhd_hct_cfrna_51','gvhd_hct_cfrna_60','gvhd_hct_cfrna_52','gvhd_hct_cfrna_53','gvhd_hct_cfrna_1','gvhd_hct_cfrna_2','gvhd_hct_cfrna_3','gvhd_hct_cfrna_4','gvhd_hct_cfrna_5','gvhd_hct_cfrna_6','gvhd_hct_cfrna_8','gvhd_hct_cfrna_54','gvhd_hct_cfrna_55','gvhd_hct_cfrna_15','gvhd_hct_cfrna_16','gvhd_hct_cfrna_17','gvhd_hct_cfrna_18','gvhd_hct_cfrna_19','gvhd_hct_cfrna_20','gvhd_hct_cfrna_21','gvhd_hct_cfrna_56','gvhd_hct_cfrna_57','gvhd_hct_cfrna_27','gvhd_hct_cfrna_28','gvhd_hct_cfrna_29','gvhd_hct_cfrna_30','gvhd_hct_cfrna_31','gvhd_hct_cfrna_32','gvhd_hct_cfrna_33','gvhd_hct_cfrna_58','gvhd_hct_cfrna_34','gvhd_hct_cfrna_35','gvhd_hct_cfrna_36','gvhd_hct_cfrna_39','gvhd_hct_cfrna_40','gvhd_hct_cfrna_41','gvhd_hct_cfrna_42','gvhd_hct_cfrna_43','gvhd_hct_cfrna_59','gvhd_hct_cfrna_44','gvhd_hct_cfrna_45','gvhd_hct_cfrna_46','gvhd_hct_cfrna_47','gvhd_hct_cfrna_48','gvhd_hct_cfrna_7combo']
+
+PROJECT: 
+    'gvhd_hct_cfrna_51': gvhd_hct
+
+    'gvhd_hct_cfrna_60': gvhd_hct
+
+    'gvhd_hct_cfrna_52': gvhd_hct
+
+    'gvhd_hct_cfrna_53': gvhd_hct
+
+    'gvhd_hct_cfrna_1': gvhd_hct
+
+    'gvhd_hct_cfrna_2': gvhd_hct
+
+    'gvhd_hct_cfrna_3': gvhd_hct
+
+    'gvhd_hct_cfrna_4': gvhd_hct
+
+    'gvhd_hct_cfrna_5': gvhd_hct
+
+    'gvhd_hct_cfrna_6': gvhd_hct
+
+    'gvhd_hct_cfrna_8': gvhd_hct
+
+    'gvhd_hct_cfrna_54': gvhd_hct
+
+    'gvhd_hct_cfrna_55': gvhd_hct
+
+    'gvhd_hct_cfrna_15': gvhd_hct
+
+    'gvhd_hct_cfrna_16': gvhd_hct
+
+    'gvhd_hct_cfrna_17': gvhd_hct
+
+    'gvhd_hct_cfrna_18': gvhd_hct
+
+    'gvhd_hct_cfrna_19': gvhd_hct
+
+    'gvhd_hct_cfrna_20': gvhd_hct
+
+    'gvhd_hct_cfrna_21': gvhd_hct
+
+    'gvhd_hct_cfrna_56': gvhd_hct
+
+    'gvhd_hct_cfrna_57': gvhd_hct
+
+    'gvhd_hct_cfrna_27': gvhd_hct
+
+    'gvhd_hct_cfrna_28': gvhd_hct
+
+    'gvhd_hct_cfrna_29': gvhd_hct
+
+    'gvhd_hct_cfrna_30': gvhd_hct
+
+    'gvhd_hct_cfrna_31': gvhd_hct
+
+    'gvhd_hct_cfrna_32': gvhd_hct
+
+    'gvhd_hct_cfrna_33': gvhd_hct
+
+    'gvhd_hct_cfrna_58': gvhd_hct
+
+    'gvhd_hct_cfrna_34': gvhd_hct
+
+    'gvhd_hct_cfrna_35': gvhd_hct
+
+    'gvhd_hct_cfrna_36': gvhd_hct
+
+    'gvhd_hct_cfrna_39': gvhd_hct
+
+    'gvhd_hct_cfrna_40': gvhd_hct
+
+    'gvhd_hct_cfrna_41': gvhd_hct
+
+    'gvhd_hct_cfrna_42': gvhd_hct
+
+    'gvhd_hct_cfrna_43': gvhd_hct
+
+    'gvhd_hct_cfrna_59': gvhd_hct
+
+    'gvhd_hct_cfrna_44': gvhd_hct
+
+    'gvhd_hct_cfrna_45': gvhd_hct
+
+    'gvhd_hct_cfrna_46': gvhd_hct
+
+    'gvhd_hct_cfrna_47': gvhd_hct
+
+    'gvhd_hct_cfrna_48': gvhd_hct
+
+    'gvhd_hct_cfrna_7combo': gvhd_hct
+
+PREP: 
+    'gvhd_hct_cfrna_51': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_60': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_52': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_53': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_1': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_2': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_3': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_4': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_5': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_6': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_8': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_54': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_55': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_15': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_16': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_17': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_18': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_19': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_20': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_21': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_56': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_57': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_27': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_28': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_29': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_30': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_31': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_32': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_33': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_58': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_34': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_35': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_36': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_39': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_40': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_41': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_42': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_43': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_59': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_44': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_45': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_46': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_47': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_48': SMARTer_pico_v3
+
+    'gvhd_hct_cfrna_7combo': SMARTer_pico_v3
+
+REF_DICT: 
+    'gvhd_hct_cfrna_51': HG38
+
+    'gvhd_hct_cfrna_60': HG38
+
+    'gvhd_hct_cfrna_52': HG38
+
+    'gvhd_hct_cfrna_53': HG38
+
+    'gvhd_hct_cfrna_1': HG38
+
+    'gvhd_hct_cfrna_2': HG38
+
+    'gvhd_hct_cfrna_3': HG38
+
+    'gvhd_hct_cfrna_4': HG38
+
+    'gvhd_hct_cfrna_5': HG38
+
+    'gvhd_hct_cfrna_6': HG38
+
+    'gvhd_hct_cfrna_8': HG38
+
+    'gvhd_hct_cfrna_54': HG38
+
+    'gvhd_hct_cfrna_55': HG38
+
+    'gvhd_hct_cfrna_15': HG38
+
+    'gvhd_hct_cfrna_16': HG38
+
+    'gvhd_hct_cfrna_17': HG38
+
+    'gvhd_hct_cfrna_18': HG38
+
+    'gvhd_hct_cfrna_19': HG38
+
+    'gvhd_hct_cfrna_20': HG38
+
+    'gvhd_hct_cfrna_21': HG38
+
+    'gvhd_hct_cfrna_56': HG38
+
+    'gvhd_hct_cfrna_57': HG38
+
+    'gvhd_hct_cfrna_27': HG38
+
+    'gvhd_hct_cfrna_28': HG38
+
+    'gvhd_hct_cfrna_29': HG38
+
+    'gvhd_hct_cfrna_30': HG38
+
+    'gvhd_hct_cfrna_31': HG38
+
+    'gvhd_hct_cfrna_32': HG38
+
+    'gvhd_hct_cfrna_33': HG38
+
+    'gvhd_hct_cfrna_58': HG38
+
+    'gvhd_hct_cfrna_34': HG38
+
+    'gvhd_hct_cfrna_35': HG38
+
+    'gvhd_hct_cfrna_36': HG38
+
+    'gvhd_hct_cfrna_39': HG38
+
+    'gvhd_hct_cfrna_40': HG38
+
+    'gvhd_hct_cfrna_41': HG38
+
+    'gvhd_hct_cfrna_42': HG38
+
+    'gvhd_hct_cfrna_43': HG38
+
+    'gvhd_hct_cfrna_59': HG38
+
+    'gvhd_hct_cfrna_44': HG38
+
+    'gvhd_hct_cfrna_45': HG38
+
+    'gvhd_hct_cfrna_46': HG38
+
+    'gvhd_hct_cfrna_47': HG38
+
+    'gvhd_hct_cfrna_48': HG38
+
+    'gvhd_hct_cfrna_7combo': HG38
+

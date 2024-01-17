@@ -1,0 +1,107 @@
+SAMPLES: ['Mock_m1_0624','Mock_m2_0624','T1L_m1_0624','T1L_m2_0624','K287T_m1_0624','K287T_m2_0624','control_6-26','T1L_m16m15_0902','T1L_m8m4_0902','T1L_m9m5m17m19_0902','T1L_m16_0000','T1L_m18_0000','Mock_m1_0902','Mock_m2_0902','Mock_m3_0902','Mock_m4_0902','T1L_m20_0902']
+
+PROJECT: 
+    'Mock_m1_0624': MOUSE_INF
+
+    'Mock_m2_0624': MOUSE_INF
+
+    'T1L_m1_0624': MOUSE_INF
+
+    'T1L_m2_0624': MOUSE_INF
+
+    'K287T_m1_0624': MOUSE_INF
+
+    'K287T_m2_0624': MOUSE_INF
+
+    'control_6-26': MOUSE_INF
+
+    'T1L_m16m15_0902': MOUSE_INF
+
+    'T1L_m8m4_0902': MOUSE_INF
+
+    'T1L_m9m5m17m19_0902': MOUSE_INF
+
+    'T1L_m16_0000': MOUSE_INF
+
+    'T1L_m18_0000': MOUSE_INF
+
+    'Mock_m1_0902': MOUSE_INF
+
+    'Mock_m2_0902': MOUSE_INF
+
+    'Mock_m3_0902': MOUSE_INF
+
+    'Mock_m4_0902': MOUSE_INF
+
+    'T1L_m20_0902': MOUSE_INF
+
+PREP: 
+    'Mock_m1_0624': SMARTer_pico_v2
+
+    'Mock_m2_0624': SMARTer_pico_v2
+
+    'T1L_m1_0624': SMARTer_pico_v2
+
+    'T1L_m2_0624': SMARTer_pico_v2
+
+    'K287T_m1_0624': SMARTer_pico_v2
+
+    'K287T_m2_0624': SMARTer_pico_v2
+
+    'control_6-26': SMARTer_pico_v2
+
+    'T1L_m16m15_0902': SMARTer_pico_v3
+
+    'T1L_m8m4_0902': SMARTer_pico_v3
+
+    'T1L_m9m5m17m19_0902': SMARTer_pico_v3
+
+    'T1L_m16_0000': SMARTer_pico_v2
+
+    'T1L_m18_0000': SMARTer_pico_v3
+
+    'Mock_m1_0902': SMARTer_pico_v2
+
+    'Mock_m2_0902': SMARTer_pico_v2
+
+    'Mock_m3_0902': SMARTer_pico_v2
+
+    'Mock_m4_0902': SMARTer_pico_v2
+
+    'T1L_m20_0902': SMARTer_pico_v2
+
+REF_DICT: 
+    'Mock_m1_0624': GRCm38
+
+    'Mock_m2_0624': GRCm38
+
+    'T1L_m1_0624': GRCm38
+
+    'T1L_m2_0624': GRCm38
+
+    'K287T_m1_0624': GRCm38
+
+    'K287T_m2_0624': GRCm38
+
+    'control_6-26': GRCm38
+
+    'T1L_m16m15_0902': GRCm38
+
+    'T1L_m8m4_0902': GRCm38
+
+    'T1L_m9m5m17m19_0902': GRCm38
+
+    'T1L_m16_0000': GRCm38
+
+    'T1L_m18_0000': GRCm38
+
+    'Mock_m1_0902': GRCm38
+
+    'Mock_m2_0902': GRCm38
+
+    'Mock_m3_0902': GRCm38
+
+    'Mock_m4_0902': GRCm38
+
+    'T1L_m20_0902': GRCm38
+

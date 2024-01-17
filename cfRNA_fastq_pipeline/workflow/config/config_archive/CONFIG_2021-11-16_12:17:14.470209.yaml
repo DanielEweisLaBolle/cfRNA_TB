@@ -1,0 +1,83 @@
+SAMPLES: ['mock1_6-24','mock2_6-24','t1l1_6-24','t1l2_6-24','k287t1_6-24','k287t2_6-24','control_6-26','M16M15','M8M4','M9M5M17M19','T16','T18','T16.10000']
+
+PROJECT: 
+    'mock1_6-24': MOUSE_INF
+
+    'mock2_6-24': MOUSE_INF
+
+    't1l1_6-24': MOUSE_INF
+
+    't1l2_6-24': MOUSE_INF
+
+    'k287t1_6-24': MOUSE_INF
+
+    'k287t2_6-24': MOUSE_INF
+
+    'control_6-26': MOUSE_INF
+
+    'M16M15': MOUSE_INF
+
+    'M8M4': MOUSE_INF
+
+    'M9M5M17M19': MOUSE_INF
+
+    'T16': MOUSE_INF
+
+    'T18': MOUSE_INF
+
+    'T16.10000': MOUSE_INF
+
+PREP: 
+    'mock1_6-24': SMARTer_pico_v2
+
+    'mock2_6-24': SMARTer_pico_v2
+
+    't1l1_6-24': SMARTer_pico_v2
+
+    't1l2_6-24': SMARTer_pico_v2
+
+    'k287t1_6-24': SMARTer_pico_v2
+
+    'k287t2_6-24': SMARTer_pico_v2
+
+    'control_6-26': SMARTer_pico_v2
+
+    'M16M15': SMARTer_pico_v3
+
+    'M8M4': SMARTer_pico_v3
+
+    'M9M5M17M19': SMARTer_pico_v3
+
+    'T16': SMARTer_pico_v3
+
+    'T18': SMARTer_pico_v3
+
+    'T16.10000': SMARTer_pico_v3
+
+REF_DICT: 
+    'mock1_6-24': GRCm38
+
+    'mock2_6-24': GRCm38
+
+    't1l1_6-24': GRCm38
+
+    't1l2_6-24': GRCm38
+
+    'k287t1_6-24': GRCm38
+
+    'k287t2_6-24': GRCm38
+
+    'control_6-26': GRCm38
+
+    'M16M15': GRCm38
+
+    'M8M4': GRCm38
+
+    'M9M5M17M19': GRCm38
+
+    'T16': GRCm38
+
+    'T18': GRCm38
+
+    'T16.10000': GRCm38
+

@@ -1,0 +1,18 @@
+# remove this and everything to the right
+extra_fn_clean_exts:
+  - "_R1"
+  - "_R2"
+  - "__STARpass1"
+  - "_bt2"
+  - "bt2-checkpoint"
+  - "_htseq"
+  - "_rg_added_sorted"
+  - "_samtools-stats"
+  - ".RSEM"
+  - "_SARSCOV2"
+  - "_unmapped"
+
+# just remove this completely
+extra_fn_clean_trim:
+  - "#"
+  - ".myext"

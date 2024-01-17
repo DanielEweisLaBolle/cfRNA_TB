@@ -1,0 +1,11 @@
+SAMPLES: [short_10000]
+
+PROJECT: 
+    'short_10000': TEST
+
+PREP: 
+    'short_10000': SMARTer_pico_v2
+
+REF_DICT: 
+    'short_10000': HG38
+

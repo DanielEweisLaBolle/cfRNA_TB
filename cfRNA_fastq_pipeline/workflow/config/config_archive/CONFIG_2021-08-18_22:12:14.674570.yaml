@@ -1,0 +1,11 @@
+SAMPLES: [PTCOV128]
+
+PROJECT: 
+    'PTCOV128': MISC
+
+PREP: 
+    'PTCOV128': SMARTer_pico_v2
+
+REF_DICT: 
+    'PTCOV128': HG38
+

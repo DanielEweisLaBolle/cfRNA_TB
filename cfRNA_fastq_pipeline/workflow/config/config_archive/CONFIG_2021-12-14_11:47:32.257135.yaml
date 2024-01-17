@@ -1,0 +1,11 @@
+SAMPLES: ['Mock_m1_0624']
+
+PROJECT: 
+    'Mock_m1_0624': MOUSE_INF
+
+PREP: 
+    'Mock_m1_0624': SMARTer_pico_v2
+
+REF_DICT: 
+    'Mock_m1_0624': GRCm38
+

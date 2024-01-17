@@ -1,0 +1,1727 @@
+SAMPLES: ['prevail_cu_cfrna_10','prevail_cu_cfrna_100','prevail_cu_cfrna_101','prevail_cu_cfrna_102','prevail_cu_cfrna_103','prevail_cu_cfrna_104','prevail_cu_cfrna_105','prevail_cu_cfrna_106','prevail_cu_cfrna_107','prevail_cu_cfrna_108','prevail_cu_cfrna_109','prevail_cu_cfrna_11','prevail_cu_cfrna_110','prevail_cu_cfrna_111','prevail_cu_cfrna_112','prevail_cu_cfrna_113','prevail_cu_cfrna_114','prevail_cu_cfrna_115','prevail_cu_cfrna_116','prevail_cu_cfrna_117','prevail_cu_cfrna_118','prevail_cu_cfrna_119','prevail_cu_cfrna_12','prevail_cu_cfrna_120','prevail_cu_cfrna_121','prevail_cu_cfrna_122','prevail_cu_cfrna_123','prevail_cu_cfrna_124','prevail_cu_cfrna_125','prevail_cu_cfrna_126','prevail_cu_cfrna_127','prevail_cu_cfrna_128','prevail_cu_cfrna_129','prevail_cu_cfrna_13','prevail_cu_cfrna_130','prevail_cu_cfrna_131','prevail_cu_cfrna_132','prevail_cu_cfrna_133','prevail_cu_cfrna_134','prevail_cu_cfrna_135','prevail_cu_cfrna_136','prevail_cu_cfrna_137','prevail_cu_cfrna_138','prevail_cu_cfrna_139','prevail_cu_cfrna_14','prevail_cu_cfrna_140','prevail_cu_cfrna_141','prevail_cu_cfrna_142','prevail_cu_cfrna_143','prevail_cu_cfrna_144','prevail_cu_cfrna_145','prevail_cu_cfrna_146','prevail_cu_cfrna_147','prevail_cu_cfrna_148','prevail_cu_cfrna_149','prevail_cu_cfrna_15','prevail_cu_cfrna_150','prevail_cu_cfrna_151','prevail_cu_cfrna_152','prevail_cu_cfrna_153','prevail_cu_cfrna_159','prevail_cu_cfrna_16','prevail_cu_cfrna_162','prevail_cu_cfrna_164','prevail_cu_cfrna_165','prevail_cu_cfrna_166','prevail_cu_cfrna_167','prevail_cu_cfrna_168','prevail_cu_cfrna_169','prevail_cu_cfrna_170','prevail_cu_cfrna_171','prevail_cu_cfrna_172','prevail_cu_cfrna_174','prevail_cu_cfrna_175','prevail_cu_cfrna_177','prevail_cu_cfrna_178','prevail_cu_cfrna_179','prevail_cu_cfrna_18','prevail_cu_cfrna_180','prevail_cu_cfrna_181','prevail_cu_cfrna_182','prevail_cu_cfrna_183','prevail_cu_cfrna_184','prevail_cu_cfrna_185','prevail_cu_cfrna_186','prevail_cu_cfrna_187','prevail_cu_cfrna_188','prevail_cu_cfrna_189','prevail_cu_cfrna_191','prevail_cu_cfrna_192','prevail_cu_cfrna_193','prevail_cu_cfrna_194','prevail_cu_cfrna_195','prevail_cu_cfrna_196','prevail_cu_cfrna_197','prevail_cu_cfrna_198','prevail_cu_cfrna_199','prevail_cu_cfrna_2','prevail_cu_cfrna_200','prevail_cu_cfrna_201','prevail_cu_cfrna_202','prevail_cu_cfrna_203','prevail_cu_cfrna_204','prevail_cu_cfrna_205','prevail_cu_cfrna_206','prevail_cu_cfrna_207','prevail_cu_cfrna_208','prevail_cu_cfrna_209','prevail_cu_cfrna_210','prevail_cu_cfrna_211','prevail_cu_cfrna_212','prevail_cu_cfrna_213','prevail_cu_cfrna_214','prevail_cu_cfrna_215','prevail_cu_cfrna_216','prevail_cu_cfrna_217','prevail_cu_cfrna_218','prevail_cu_cfrna_219','prevail_cu_cfrna_22','prevail_cu_cfrna_220','prevail_cu_cfrna_221','prevail_cu_cfrna_222','prevail_cu_cfrna_223','prevail_cu_cfrna_224','prevail_cu_cfrna_225','prevail_cu_cfrna_226','prevail_cu_cfrna_227','prevail_cu_cfrna_228','prevail_cu_cfrna_229','prevail_cu_cfrna_23','prevail_cu_cfrna_230','prevail_cu_cfrna_231','prevail_cu_cfrna_232','prevail_cu_cfrna_233','prevail_cu_cfrna_234','prevail_cu_cfrna_235','prevail_cu_cfrna_236','prevail_cu_cfrna_238','prevail_cu_cfrna_239','prevail_cu_cfrna_24','prevail_cu_cfrna_240','prevail_cu_cfrna_241','prevail_cu_cfrna_242','prevail_cu_cfrna_244','prevail_cu_cfrna_245','prevail_cu_cfrna_248','prevail_cu_cfrna_25','prevail_cu_cfrna_250','prevail_cu_cfrna_251','prevail_cu_cfrna_252','prevail_cu_cfrna_253','prevail_cu_cfrna_255','prevail_cu_cfrna_257','prevail_cu_cfrna_258','prevail_cu_cfrna_259','prevail_cu_cfrna_26','prevail_cu_cfrna_260','prevail_cu_cfrna_262','prevail_cu_cfrna_263','prevail_cu_cfrna_267','prevail_cu_cfrna_269','prevail_cu_cfrna_27','prevail_cu_cfrna_270','prevail_cu_cfrna_271','prevail_cu_cfrna_272','prevail_cu_cfrna_274','prevail_cu_cfrna_276','prevail_cu_cfrna_277','prevail_cu_cfrna_278','prevail_cu_cfrna_279','prevail_cu_cfrna_28','prevail_cu_cfrna_280','prevail_cu_cfrna_281','prevail_cu_cfrna_282','prevail_cu_cfrna_284','prevail_cu_cfrna_285','prevail_cu_cfrna_286','prevail_cu_cfrna_287','prevail_cu_cfrna_288','prevail_cu_cfrna_289','prevail_cu_cfrna_29','prevail_cu_cfrna_290','prevail_cu_cfrna_291','prevail_cu_cfrna_292','prevail_cu_cfrna_293','prevail_cu_cfrna_294','prevail_cu_cfrna_295','prevail_cu_cfrna_296','prevail_cu_cfrna_297','prevail_cu_cfrna_298','prevail_cu_cfrna_299','prevail_cu_cfrna_3','prevail_cu_cfrna_30','prevail_cu_cfrna_300','prevail_cu_cfrna_301','prevail_cu_cfrna_303','prevail_cu_cfrna_304','prevail_cu_cfrna_305','prevail_cu_cfrna_306','prevail_cu_cfrna_307','prevail_cu_cfrna_308','prevail_cu_cfrna_309','prevail_cu_cfrna_310','prevail_cu_cfrna_311','prevail_cu_cfrna_313','prevail_cu_cfrna_315','prevail_cu_cfrna_316','prevail_cu_cfrna_317','prevail_cu_cfrna_318','prevail_cu_cfrna_319','prevail_cu_cfrna_320','prevail_cu_cfrna_321','prevail_cu_cfrna_322','prevail_cu_cfrna_323','prevail_cu_cfrna_324','prevail_cu_cfrna_34','prevail_cu_cfrna_35','prevail_cu_cfrna_36','prevail_cu_cfrna_37','prevail_cu_cfrna_38','prevail_cu_cfrna_39','prevail_cu_cfrna_4','prevail_cu_cfrna_40','prevail_cu_cfrna_41','prevail_cu_cfrna_42','prevail_cu_cfrna_43','prevail_cu_cfrna_44','prevail_cu_cfrna_45','prevail_cu_cfrna_46','prevail_cu_cfrna_47','prevail_cu_cfrna_48','prevail_cu_cfrna_49','prevail_cu_cfrna_5','prevail_cu_cfrna_50','prevail_cu_cfrna_51','prevail_cu_cfrna_52','prevail_cu_cfrna_53','prevail_cu_cfrna_54','prevail_cu_cfrna_55','prevail_cu_cfrna_56','prevail_cu_cfrna_57','prevail_cu_cfrna_58','prevail_cu_cfrna_59','prevail_cu_cfrna_6','prevail_cu_cfrna_60','prevail_cu_cfrna_61','prevail_cu_cfrna_62','prevail_cu_cfrna_63','prevail_cu_cfrna_64','prevail_cu_cfrna_65','prevail_cu_cfrna_66','prevail_cu_cfrna_67','prevail_cu_cfrna_68','prevail_cu_cfrna_69','prevail_cu_cfrna_7','prevail_cu_cfrna_70','prevail_cu_cfrna_71','prevail_cu_cfrna_72','prevail_cu_cfrna_73','prevail_cu_cfrna_74','prevail_cu_cfrna_75','prevail_cu_cfrna_76','prevail_cu_cfrna_77','prevail_cu_cfrna_78','prevail_cu_cfrna_79','prevail_cu_cfrna_8','prevail_cu_cfrna_80','prevail_cu_cfrna_81','prevail_cu_cfrna_82','prevail_cu_cfrna_83','prevail_cu_cfrna_84','prevail_cu_cfrna_85','prevail_cu_cfrna_86','prevail_cu_cfrna_87','prevail_cu_cfrna_88','prevail_cu_cfrna_89','prevail_cu_cfrna_9','prevail_cu_cfrna_90','prevail_cu_cfrna_91','prevail_cu_cfrna_92','prevail_cu_cfrna_93','prevail_cu_cfrna_94','prevail_cu_cfrna_95','prevail_cu_cfrna_96','prevail_cu_cfrna_97','prevail_cu_cfrna_98','prevail_cu_cfrna_99']
+
+PROJECT: 
+    'prevail_cu_cfrna_10': MISC
+
+    'prevail_cu_cfrna_100': MISC
+
+    'prevail_cu_cfrna_101': MISC
+
+    'prevail_cu_cfrna_102': MISC
+
+    'prevail_cu_cfrna_103': MISC
+
+    'prevail_cu_cfrna_104': MISC
+
+    'prevail_cu_cfrna_105': MISC
+
+    'prevail_cu_cfrna_106': MISC
+
+    'prevail_cu_cfrna_107': MISC
+
+    'prevail_cu_cfrna_108': MISC
+
+    'prevail_cu_cfrna_109': MISC
+
+    'prevail_cu_cfrna_11': MISC
+
+    'prevail_cu_cfrna_110': MISC
+
+    'prevail_cu_cfrna_111': MISC
+
+    'prevail_cu_cfrna_112': MISC
+
+    'prevail_cu_cfrna_113': MISC
+
+    'prevail_cu_cfrna_114': MISC
+
+    'prevail_cu_cfrna_115': MISC
+
+    'prevail_cu_cfrna_116': MISC
+
+    'prevail_cu_cfrna_117': MISC
+
+    'prevail_cu_cfrna_118': MISC
+
+    'prevail_cu_cfrna_119': MISC
+
+    'prevail_cu_cfrna_12': MISC
+
+    'prevail_cu_cfrna_120': MISC
+
+    'prevail_cu_cfrna_121': MISC
+
+    'prevail_cu_cfrna_122': MISC
+
+    'prevail_cu_cfrna_123': MISC
+
+    'prevail_cu_cfrna_124': MISC
+
+    'prevail_cu_cfrna_125': MISC
+
+    'prevail_cu_cfrna_126': MISC
+
+    'prevail_cu_cfrna_127': MISC
+
+    'prevail_cu_cfrna_128': MISC
+
+    'prevail_cu_cfrna_129': MISC
+
+    'prevail_cu_cfrna_13': MISC
+
+    'prevail_cu_cfrna_130': MISC
+
+    'prevail_cu_cfrna_131': MISC
+
+    'prevail_cu_cfrna_132': MISC
+
+    'prevail_cu_cfrna_133': MISC
+
+    'prevail_cu_cfrna_134': MISC
+
+    'prevail_cu_cfrna_135': MISC
+
+    'prevail_cu_cfrna_136': MISC
+
+    'prevail_cu_cfrna_137': MISC
+
+    'prevail_cu_cfrna_138': MISC
+
+    'prevail_cu_cfrna_139': MISC
+
+    'prevail_cu_cfrna_14': MISC
+
+    'prevail_cu_cfrna_140': MISC
+
+    'prevail_cu_cfrna_141': MISC
+
+    'prevail_cu_cfrna_142': MISC
+
+    'prevail_cu_cfrna_143': MISC
+
+    'prevail_cu_cfrna_144': MISC
+
+    'prevail_cu_cfrna_145': MISC
+
+    'prevail_cu_cfrna_146': MISC
+
+    'prevail_cu_cfrna_147': MISC
+
+    'prevail_cu_cfrna_148': MISC
+
+    'prevail_cu_cfrna_149': MISC
+
+    'prevail_cu_cfrna_15': MISC
+
+    'prevail_cu_cfrna_150': MISC
+
+    'prevail_cu_cfrna_151': MISC
+
+    'prevail_cu_cfrna_152': MISC
+
+    'prevail_cu_cfrna_153': MISC
+
+    'prevail_cu_cfrna_159': MISC
+
+    'prevail_cu_cfrna_16': MISC
+
+    'prevail_cu_cfrna_162': MISC
+
+    'prevail_cu_cfrna_164': MISC
+
+    'prevail_cu_cfrna_165': MISC
+
+    'prevail_cu_cfrna_166': MISC
+
+    'prevail_cu_cfrna_167': MISC
+
+    'prevail_cu_cfrna_168': MISC
+
+    'prevail_cu_cfrna_169': MISC
+
+    'prevail_cu_cfrna_170': MISC
+
+    'prevail_cu_cfrna_171': MISC
+
+    'prevail_cu_cfrna_172': MISC
+
+    'prevail_cu_cfrna_174': MISC
+
+    'prevail_cu_cfrna_175': MISC
+
+    'prevail_cu_cfrna_177': MISC
+
+    'prevail_cu_cfrna_178': MISC
+
+    'prevail_cu_cfrna_179': MISC
+
+    'prevail_cu_cfrna_18': MISC
+
+    'prevail_cu_cfrna_180': MISC
+
+    'prevail_cu_cfrna_181': MISC
+
+    'prevail_cu_cfrna_182': MISC
+
+    'prevail_cu_cfrna_183': MISC
+
+    'prevail_cu_cfrna_184': MISC
+
+    'prevail_cu_cfrna_185': MISC
+
+    'prevail_cu_cfrna_186': MISC
+
+    'prevail_cu_cfrna_187': MISC
+
+    'prevail_cu_cfrna_188': MISC
+
+    'prevail_cu_cfrna_189': MISC
+
+    'prevail_cu_cfrna_191': MISC
+
+    'prevail_cu_cfrna_192': MISC
+
+    'prevail_cu_cfrna_193': MISC
+
+    'prevail_cu_cfrna_194': MISC
+
+    'prevail_cu_cfrna_195': MISC
+
+    'prevail_cu_cfrna_196': MISC
+
+    'prevail_cu_cfrna_197': MISC
+
+    'prevail_cu_cfrna_198': MISC
+
+    'prevail_cu_cfrna_199': MISC
+
+    'prevail_cu_cfrna_2': MISC
+
+    'prevail_cu_cfrna_200': MISC
+
+    'prevail_cu_cfrna_201': MISC
+
+    'prevail_cu_cfrna_202': MISC
+
+    'prevail_cu_cfrna_203': MISC
+
+    'prevail_cu_cfrna_204': MISC
+
+    'prevail_cu_cfrna_205': MISC
+
+    'prevail_cu_cfrna_206': MISC
+
+    'prevail_cu_cfrna_207': MISC
+
+    'prevail_cu_cfrna_208': MISC
+
+    'prevail_cu_cfrna_209': MISC
+
+    'prevail_cu_cfrna_210': MISC
+
+    'prevail_cu_cfrna_211': MISC
+
+    'prevail_cu_cfrna_212': MISC
+
+    'prevail_cu_cfrna_213': MISC
+
+    'prevail_cu_cfrna_214': MISC
+
+    'prevail_cu_cfrna_215': MISC
+
+    'prevail_cu_cfrna_216': MISC
+
+    'prevail_cu_cfrna_217': MISC
+
+    'prevail_cu_cfrna_218': MISC
+
+    'prevail_cu_cfrna_219': MISC
+
+    'prevail_cu_cfrna_22': MISC
+
+    'prevail_cu_cfrna_220': MISC
+
+    'prevail_cu_cfrna_221': MISC
+
+    'prevail_cu_cfrna_222': MISC
+
+    'prevail_cu_cfrna_223': MISC
+
+    'prevail_cu_cfrna_224': MISC
+
+    'prevail_cu_cfrna_225': MISC
+
+    'prevail_cu_cfrna_226': MISC
+
+    'prevail_cu_cfrna_227': MISC
+
+    'prevail_cu_cfrna_228': MISC
+
+    'prevail_cu_cfrna_229': MISC
+
+    'prevail_cu_cfrna_23': MISC
+
+    'prevail_cu_cfrna_230': MISC
+
+    'prevail_cu_cfrna_231': MISC
+
+    'prevail_cu_cfrna_232': MISC
+
+    'prevail_cu_cfrna_233': MISC
+
+    'prevail_cu_cfrna_234': MISC
+
+    'prevail_cu_cfrna_235': MISC
+
+    'prevail_cu_cfrna_236': MISC
+
+    'prevail_cu_cfrna_238': MISC
+
+    'prevail_cu_cfrna_239': MISC
+
+    'prevail_cu_cfrna_24': MISC
+
+    'prevail_cu_cfrna_240': MISC
+
+    'prevail_cu_cfrna_241': MISC
+
+    'prevail_cu_cfrna_242': MISC
+
+    'prevail_cu_cfrna_244': MISC
+
+    'prevail_cu_cfrna_245': MISC
+
+    'prevail_cu_cfrna_248': MISC
+
+    'prevail_cu_cfrna_25': MISC
+
+    'prevail_cu_cfrna_250': MISC
+
+    'prevail_cu_cfrna_251': MISC
+
+    'prevail_cu_cfrna_252': MISC
+
+    'prevail_cu_cfrna_253': MISC
+
+    'prevail_cu_cfrna_255': MISC
+
+    'prevail_cu_cfrna_257': MISC
+
+    'prevail_cu_cfrna_258': MISC
+
+    'prevail_cu_cfrna_259': MISC
+
+    'prevail_cu_cfrna_26': MISC
+
+    'prevail_cu_cfrna_260': MISC
+
+    'prevail_cu_cfrna_262': MISC
+
+    'prevail_cu_cfrna_263': MISC
+
+    'prevail_cu_cfrna_267': MISC
+
+    'prevail_cu_cfrna_269': MISC
+
+    'prevail_cu_cfrna_27': MISC
+
+    'prevail_cu_cfrna_270': MISC
+
+    'prevail_cu_cfrna_271': MISC
+
+    'prevail_cu_cfrna_272': MISC
+
+    'prevail_cu_cfrna_274': MISC
+
+    'prevail_cu_cfrna_276': MISC
+
+    'prevail_cu_cfrna_277': MISC
+
+    'prevail_cu_cfrna_278': MISC
+
+    'prevail_cu_cfrna_279': MISC
+
+    'prevail_cu_cfrna_28': MISC
+
+    'prevail_cu_cfrna_280': MISC
+
+    'prevail_cu_cfrna_281': MISC
+
+    'prevail_cu_cfrna_282': MISC
+
+    'prevail_cu_cfrna_284': MISC
+
+    'prevail_cu_cfrna_285': MISC
+
+    'prevail_cu_cfrna_286': MISC
+
+    'prevail_cu_cfrna_287': MISC
+
+    'prevail_cu_cfrna_288': MISC
+
+    'prevail_cu_cfrna_289': MISC
+
+    'prevail_cu_cfrna_29': MISC
+
+    'prevail_cu_cfrna_290': MISC
+
+    'prevail_cu_cfrna_291': MISC
+
+    'prevail_cu_cfrna_292': MISC
+
+    'prevail_cu_cfrna_293': MISC
+
+    'prevail_cu_cfrna_294': MISC
+
+    'prevail_cu_cfrna_295': MISC
+
+    'prevail_cu_cfrna_296': MISC
+
+    'prevail_cu_cfrna_297': MISC
+
+    'prevail_cu_cfrna_298': MISC
+
+    'prevail_cu_cfrna_299': MISC
+
+    'prevail_cu_cfrna_3': MISC
+
+    'prevail_cu_cfrna_30': MISC
+
+    'prevail_cu_cfrna_300': MISC
+
+    'prevail_cu_cfrna_301': MISC
+
+    'prevail_cu_cfrna_303': MISC
+
+    'prevail_cu_cfrna_304': MISC
+
+    'prevail_cu_cfrna_305': MISC
+
+    'prevail_cu_cfrna_306': MISC
+
+    'prevail_cu_cfrna_307': MISC
+
+    'prevail_cu_cfrna_308': MISC
+
+    'prevail_cu_cfrna_309': MISC
+
+    'prevail_cu_cfrna_310': MISC
+
+    'prevail_cu_cfrna_311': MISC
+
+    'prevail_cu_cfrna_313': MISC
+
+    'prevail_cu_cfrna_315': MISC
+
+    'prevail_cu_cfrna_316': MISC
+
+    'prevail_cu_cfrna_317': MISC
+
+    'prevail_cu_cfrna_318': MISC
+
+    'prevail_cu_cfrna_319': MISC
+
+    'prevail_cu_cfrna_320': MISC
+
+    'prevail_cu_cfrna_321': MISC
+
+    'prevail_cu_cfrna_322': MISC
+
+    'prevail_cu_cfrna_323': MISC
+
+    'prevail_cu_cfrna_324': MISC
+
+    'prevail_cu_cfrna_34': MISC
+
+    'prevail_cu_cfrna_35': MISC
+
+    'prevail_cu_cfrna_36': MISC
+
+    'prevail_cu_cfrna_37': MISC
+
+    'prevail_cu_cfrna_38': MISC
+
+    'prevail_cu_cfrna_39': MISC
+
+    'prevail_cu_cfrna_4': MISC
+
+    'prevail_cu_cfrna_40': MISC
+
+    'prevail_cu_cfrna_41': MISC
+
+    'prevail_cu_cfrna_42': MISC
+
+    'prevail_cu_cfrna_43': MISC
+
+    'prevail_cu_cfrna_44': MISC
+
+    'prevail_cu_cfrna_45': MISC
+
+    'prevail_cu_cfrna_46': MISC
+
+    'prevail_cu_cfrna_47': MISC
+
+    'prevail_cu_cfrna_48': MISC
+
+    'prevail_cu_cfrna_49': MISC
+
+    'prevail_cu_cfrna_5': MISC
+
+    'prevail_cu_cfrna_50': MISC
+
+    'prevail_cu_cfrna_51': MISC
+
+    'prevail_cu_cfrna_52': MISC
+
+    'prevail_cu_cfrna_53': MISC
+
+    'prevail_cu_cfrna_54': MISC
+
+    'prevail_cu_cfrna_55': MISC
+
+    'prevail_cu_cfrna_56': MISC
+
+    'prevail_cu_cfrna_57': MISC
+
+    'prevail_cu_cfrna_58': MISC
+
+    'prevail_cu_cfrna_59': MISC
+
+    'prevail_cu_cfrna_6': MISC
+
+    'prevail_cu_cfrna_60': MISC
+
+    'prevail_cu_cfrna_61': MISC
+
+    'prevail_cu_cfrna_62': MISC
+
+    'prevail_cu_cfrna_63': MISC
+
+    'prevail_cu_cfrna_64': MISC
+
+    'prevail_cu_cfrna_65': MISC
+
+    'prevail_cu_cfrna_66': MISC
+
+    'prevail_cu_cfrna_67': MISC
+
+    'prevail_cu_cfrna_68': MISC
+
+    'prevail_cu_cfrna_69': MISC
+
+    'prevail_cu_cfrna_7': MISC
+
+    'prevail_cu_cfrna_70': MISC
+
+    'prevail_cu_cfrna_71': MISC
+
+    'prevail_cu_cfrna_72': MISC
+
+    'prevail_cu_cfrna_73': MISC
+
+    'prevail_cu_cfrna_74': MISC
+
+    'prevail_cu_cfrna_75': MISC
+
+    'prevail_cu_cfrna_76': MISC
+
+    'prevail_cu_cfrna_77': MISC
+
+    'prevail_cu_cfrna_78': MISC
+
+    'prevail_cu_cfrna_79': MISC
+
+    'prevail_cu_cfrna_8': MISC
+
+    'prevail_cu_cfrna_80': MISC
+
+    'prevail_cu_cfrna_81': MISC
+
+    'prevail_cu_cfrna_82': MISC
+
+    'prevail_cu_cfrna_83': MISC
+
+    'prevail_cu_cfrna_84': MISC
+
+    'prevail_cu_cfrna_85': MISC
+
+    'prevail_cu_cfrna_86': MISC
+
+    'prevail_cu_cfrna_87': MISC
+
+    'prevail_cu_cfrna_88': MISC
+
+    'prevail_cu_cfrna_89': MISC
+
+    'prevail_cu_cfrna_9': MISC
+
+    'prevail_cu_cfrna_90': MISC
+
+    'prevail_cu_cfrna_91': MISC
+
+    'prevail_cu_cfrna_92': MISC
+
+    'prevail_cu_cfrna_93': MISC
+
+    'prevail_cu_cfrna_94': MISC
+
+    'prevail_cu_cfrna_95': MISC
+
+    'prevail_cu_cfrna_96': MISC
+
+    'prevail_cu_cfrna_97': MISC
+
+    'prevail_cu_cfrna_98': MISC
+
+    'prevail_cu_cfrna_99': MISC
+
+PREP: 
+    'prevail_cu_cfrna_10': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_100': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_101': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_102': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_103': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_104': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_105': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_106': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_107': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_108': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_109': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_11': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_110': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_111': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_112': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_113': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_114': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_115': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_116': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_117': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_118': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_119': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_12': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_120': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_121': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_122': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_123': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_124': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_125': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_126': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_127': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_128': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_129': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_13': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_130': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_131': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_132': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_133': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_134': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_135': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_136': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_137': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_138': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_139': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_14': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_140': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_141': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_142': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_143': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_144': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_145': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_146': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_147': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_148': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_149': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_15': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_150': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_151': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_152': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_153': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_159': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_16': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_162': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_164': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_165': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_166': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_167': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_168': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_169': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_170': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_171': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_172': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_174': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_175': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_177': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_178': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_179': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_18': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_180': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_181': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_182': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_183': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_184': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_185': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_186': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_187': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_188': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_189': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_191': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_192': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_193': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_194': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_195': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_196': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_197': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_198': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_199': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_2': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_200': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_201': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_202': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_203': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_204': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_205': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_206': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_207': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_208': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_209': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_210': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_211': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_212': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_213': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_214': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_215': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_216': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_217': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_218': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_219': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_22': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_220': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_221': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_222': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_223': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_224': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_225': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_226': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_227': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_228': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_229': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_23': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_230': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_231': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_232': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_233': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_234': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_235': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_236': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_238': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_239': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_24': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_240': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_241': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_242': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_244': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_245': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_248': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_25': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_250': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_251': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_252': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_253': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_255': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_257': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_258': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_259': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_26': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_260': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_262': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_263': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_267': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_269': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_27': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_270': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_271': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_272': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_274': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_276': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_277': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_278': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_279': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_28': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_280': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_281': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_282': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_284': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_285': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_286': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_287': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_288': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_289': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_29': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_290': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_291': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_292': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_293': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_294': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_295': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_296': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_297': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_298': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_299': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_3': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_30': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_300': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_301': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_303': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_304': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_305': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_306': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_307': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_308': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_309': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_310': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_311': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_313': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_315': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_316': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_317': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_318': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_319': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_320': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_321': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_322': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_323': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_324': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_34': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_35': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_36': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_37': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_38': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_39': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_4': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_40': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_41': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_42': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_43': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_44': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_45': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_46': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_47': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_48': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_49': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_5': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_50': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_51': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_52': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_53': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_54': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_55': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_56': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_57': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_58': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_59': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_6': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_60': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_61': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_62': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_63': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_64': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_65': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_66': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_67': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_68': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_69': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_7': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_70': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_71': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_72': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_73': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_74': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_75': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_76': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_77': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_78': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_79': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_8': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_80': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_81': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_82': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_83': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_84': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_85': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_86': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_87': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_88': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_89': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_9': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_90': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_91': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_92': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_93': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_94': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_95': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_96': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_97': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_98': SMARTer_pico_v2
+
+    'prevail_cu_cfrna_99': SMARTer_pico_v2
+
+REF_DICT: 
+    'prevail_cu_cfrna_10': HG38
+
+    'prevail_cu_cfrna_100': HG38
+
+    'prevail_cu_cfrna_101': HG38
+
+    'prevail_cu_cfrna_102': HG38
+
+    'prevail_cu_cfrna_103': HG38
+
+    'prevail_cu_cfrna_104': HG38
+
+    'prevail_cu_cfrna_105': HG38
+
+    'prevail_cu_cfrna_106': HG38
+
+    'prevail_cu_cfrna_107': HG38
+
+    'prevail_cu_cfrna_108': HG38
+
+    'prevail_cu_cfrna_109': HG38
+
+    'prevail_cu_cfrna_11': HG38
+
+    'prevail_cu_cfrna_110': HG38
+
+    'prevail_cu_cfrna_111': HG38
+
+    'prevail_cu_cfrna_112': HG38
+
+    'prevail_cu_cfrna_113': HG38
+
+    'prevail_cu_cfrna_114': HG38
+
+    'prevail_cu_cfrna_115': HG38
+
+    'prevail_cu_cfrna_116': HG38
+
+    'prevail_cu_cfrna_117': HG38
+
+    'prevail_cu_cfrna_118': HG38
+
+    'prevail_cu_cfrna_119': HG38
+
+    'prevail_cu_cfrna_12': HG38
+
+    'prevail_cu_cfrna_120': HG38
+
+    'prevail_cu_cfrna_121': HG38
+
+    'prevail_cu_cfrna_122': HG38
+
+    'prevail_cu_cfrna_123': HG38
+
+    'prevail_cu_cfrna_124': HG38
+
+    'prevail_cu_cfrna_125': HG38
+
+    'prevail_cu_cfrna_126': HG38
+
+    'prevail_cu_cfrna_127': HG38
+
+    'prevail_cu_cfrna_128': HG38
+
+    'prevail_cu_cfrna_129': HG38
+
+    'prevail_cu_cfrna_13': HG38
+
+    'prevail_cu_cfrna_130': HG38
+
+    'prevail_cu_cfrna_131': HG38
+
+    'prevail_cu_cfrna_132': HG38
+
+    'prevail_cu_cfrna_133': HG38
+
+    'prevail_cu_cfrna_134': HG38
+
+    'prevail_cu_cfrna_135': HG38
+
+    'prevail_cu_cfrna_136': HG38
+
+    'prevail_cu_cfrna_137': HG38
+
+    'prevail_cu_cfrna_138': HG38
+
+    'prevail_cu_cfrna_139': HG38
+
+    'prevail_cu_cfrna_14': HG38
+
+    'prevail_cu_cfrna_140': HG38
+
+    'prevail_cu_cfrna_141': HG38
+
+    'prevail_cu_cfrna_142': HG38
+
+    'prevail_cu_cfrna_143': HG38
+
+    'prevail_cu_cfrna_144': HG38
+
+    'prevail_cu_cfrna_145': HG38
+
+    'prevail_cu_cfrna_146': HG38
+
+    'prevail_cu_cfrna_147': HG38
+
+    'prevail_cu_cfrna_148': HG38
+
+    'prevail_cu_cfrna_149': HG38
+
+    'prevail_cu_cfrna_15': HG38
+
+    'prevail_cu_cfrna_150': HG38
+
+    'prevail_cu_cfrna_151': HG38
+
+    'prevail_cu_cfrna_152': HG38
+
+    'prevail_cu_cfrna_153': HG38
+
+    'prevail_cu_cfrna_159': HG38
+
+    'prevail_cu_cfrna_16': HG38
+
+    'prevail_cu_cfrna_162': HG38
+
+    'prevail_cu_cfrna_164': HG38
+
+    'prevail_cu_cfrna_165': HG38
+
+    'prevail_cu_cfrna_166': HG38
+
+    'prevail_cu_cfrna_167': HG38
+
+    'prevail_cu_cfrna_168': HG38
+
+    'prevail_cu_cfrna_169': HG38
+
+    'prevail_cu_cfrna_170': HG38
+
+    'prevail_cu_cfrna_171': HG38
+
+    'prevail_cu_cfrna_172': HG38
+
+    'prevail_cu_cfrna_174': HG38
+
+    'prevail_cu_cfrna_175': HG38
+
+    'prevail_cu_cfrna_177': HG38
+
+    'prevail_cu_cfrna_178': HG38
+
+    'prevail_cu_cfrna_179': HG38
+
+    'prevail_cu_cfrna_18': HG38
+
+    'prevail_cu_cfrna_180': HG38
+
+    'prevail_cu_cfrna_181': HG38
+
+    'prevail_cu_cfrna_182': HG38
+
+    'prevail_cu_cfrna_183': HG38
+
+    'prevail_cu_cfrna_184': HG38
+
+    'prevail_cu_cfrna_185': HG38
+
+    'prevail_cu_cfrna_186': HG38
+
+    'prevail_cu_cfrna_187': HG38
+
+    'prevail_cu_cfrna_188': HG38
+
+    'prevail_cu_cfrna_189': HG38
+
+    'prevail_cu_cfrna_191': HG38
+
+    'prevail_cu_cfrna_192': HG38
+
+    'prevail_cu_cfrna_193': HG38
+
+    'prevail_cu_cfrna_194': HG38
+
+    'prevail_cu_cfrna_195': HG38
+
+    'prevail_cu_cfrna_196': HG38
+
+    'prevail_cu_cfrna_197': HG38
+
+    'prevail_cu_cfrna_198': HG38
+
+    'prevail_cu_cfrna_199': HG38
+
+    'prevail_cu_cfrna_2': HG38
+
+    'prevail_cu_cfrna_200': HG38
+
+    'prevail_cu_cfrna_201': HG38
+
+    'prevail_cu_cfrna_202': HG38
+
+    'prevail_cu_cfrna_203': HG38
+
+    'prevail_cu_cfrna_204': HG38
+
+    'prevail_cu_cfrna_205': HG38
+
+    'prevail_cu_cfrna_206': HG38
+
+    'prevail_cu_cfrna_207': HG38
+
+    'prevail_cu_cfrna_208': HG38
+
+    'prevail_cu_cfrna_209': HG38
+
+    'prevail_cu_cfrna_210': HG38
+
+    'prevail_cu_cfrna_211': HG38
+
+    'prevail_cu_cfrna_212': HG38
+
+    'prevail_cu_cfrna_213': HG38
+
+    'prevail_cu_cfrna_214': HG38
+
+    'prevail_cu_cfrna_215': HG38
+
+    'prevail_cu_cfrna_216': HG38
+
+    'prevail_cu_cfrna_217': HG38
+
+    'prevail_cu_cfrna_218': HG38
+
+    'prevail_cu_cfrna_219': HG38
+
+    'prevail_cu_cfrna_22': HG38
+
+    'prevail_cu_cfrna_220': HG38
+
+    'prevail_cu_cfrna_221': HG38
+
+    'prevail_cu_cfrna_222': HG38
+
+    'prevail_cu_cfrna_223': HG38
+
+    'prevail_cu_cfrna_224': HG38
+
+    'prevail_cu_cfrna_225': HG38
+
+    'prevail_cu_cfrna_226': HG38
+
+    'prevail_cu_cfrna_227': HG38
+
+    'prevail_cu_cfrna_228': HG38
+
+    'prevail_cu_cfrna_229': HG38
+
+    'prevail_cu_cfrna_23': HG38
+
+    'prevail_cu_cfrna_230': HG38
+
+    'prevail_cu_cfrna_231': HG38
+
+    'prevail_cu_cfrna_232': HG38
+
+    'prevail_cu_cfrna_233': HG38
+
+    'prevail_cu_cfrna_234': HG38
+
+    'prevail_cu_cfrna_235': HG38
+
+    'prevail_cu_cfrna_236': HG38
+
+    'prevail_cu_cfrna_238': HG38
+
+    'prevail_cu_cfrna_239': HG38
+
+    'prevail_cu_cfrna_24': HG38
+
+    'prevail_cu_cfrna_240': HG38
+
+    'prevail_cu_cfrna_241': HG38
+
+    'prevail_cu_cfrna_242': HG38
+
+    'prevail_cu_cfrna_244': HG38
+
+    'prevail_cu_cfrna_245': HG38
+
+    'prevail_cu_cfrna_248': HG38
+
+    'prevail_cu_cfrna_25': HG38
+
+    'prevail_cu_cfrna_250': HG38
+
+    'prevail_cu_cfrna_251': HG38
+
+    'prevail_cu_cfrna_252': HG38
+
+    'prevail_cu_cfrna_253': HG38
+
+    'prevail_cu_cfrna_255': HG38
+
+    'prevail_cu_cfrna_257': HG38
+
+    'prevail_cu_cfrna_258': HG38
+
+    'prevail_cu_cfrna_259': HG38
+
+    'prevail_cu_cfrna_26': HG38
+
+    'prevail_cu_cfrna_260': HG38
+
+    'prevail_cu_cfrna_262': HG38
+
+    'prevail_cu_cfrna_263': HG38
+
+    'prevail_cu_cfrna_267': HG38
+
+    'prevail_cu_cfrna_269': HG38
+
+    'prevail_cu_cfrna_27': HG38
+
+    'prevail_cu_cfrna_270': HG38
+
+    'prevail_cu_cfrna_271': HG38
+
+    'prevail_cu_cfrna_272': HG38
+
+    'prevail_cu_cfrna_274': HG38
+
+    'prevail_cu_cfrna_276': HG38
+
+    'prevail_cu_cfrna_277': HG38
+
+    'prevail_cu_cfrna_278': HG38
+
+    'prevail_cu_cfrna_279': HG38
+
+    'prevail_cu_cfrna_28': HG38
+
+    'prevail_cu_cfrna_280': HG38
+
+    'prevail_cu_cfrna_281': HG38
+
+    'prevail_cu_cfrna_282': HG38
+
+    'prevail_cu_cfrna_284': HG38
+
+    'prevail_cu_cfrna_285': HG38
+
+    'prevail_cu_cfrna_286': HG38
+
+    'prevail_cu_cfrna_287': HG38
+
+    'prevail_cu_cfrna_288': HG38
+
+    'prevail_cu_cfrna_289': HG38
+
+    'prevail_cu_cfrna_29': HG38
+
+    'prevail_cu_cfrna_290': HG38
+
+    'prevail_cu_cfrna_291': HG38
+
+    'prevail_cu_cfrna_292': HG38
+
+    'prevail_cu_cfrna_293': HG38
+
+    'prevail_cu_cfrna_294': HG38
+
+    'prevail_cu_cfrna_295': HG38
+
+    'prevail_cu_cfrna_296': HG38
+
+    'prevail_cu_cfrna_297': HG38
+
+    'prevail_cu_cfrna_298': HG38
+
+    'prevail_cu_cfrna_299': HG38
+
+    'prevail_cu_cfrna_3': HG38
+
+    'prevail_cu_cfrna_30': HG38
+
+    'prevail_cu_cfrna_300': HG38
+
+    'prevail_cu_cfrna_301': HG38
+
+    'prevail_cu_cfrna_303': HG38
+
+    'prevail_cu_cfrna_304': HG38
+
+    'prevail_cu_cfrna_305': HG38
+
+    'prevail_cu_cfrna_306': HG38
+
+    'prevail_cu_cfrna_307': HG38
+
+    'prevail_cu_cfrna_308': HG38
+
+    'prevail_cu_cfrna_309': HG38
+
+    'prevail_cu_cfrna_310': HG38
+
+    'prevail_cu_cfrna_311': HG38
+
+    'prevail_cu_cfrna_313': HG38
+
+    'prevail_cu_cfrna_315': HG38
+
+    'prevail_cu_cfrna_316': HG38
+
+    'prevail_cu_cfrna_317': HG38
+
+    'prevail_cu_cfrna_318': HG38
+
+    'prevail_cu_cfrna_319': HG38
+
+    'prevail_cu_cfrna_320': HG38
+
+    'prevail_cu_cfrna_321': HG38
+
+    'prevail_cu_cfrna_322': HG38
+
+    'prevail_cu_cfrna_323': HG38
+
+    'prevail_cu_cfrna_324': HG38
+
+    'prevail_cu_cfrna_34': HG38
+
+    'prevail_cu_cfrna_35': HG38
+
+    'prevail_cu_cfrna_36': HG38
+
+    'prevail_cu_cfrna_37': HG38
+
+    'prevail_cu_cfrna_38': HG38
+
+    'prevail_cu_cfrna_39': HG38
+
+    'prevail_cu_cfrna_4': HG38
+
+    'prevail_cu_cfrna_40': HG38
+
+    'prevail_cu_cfrna_41': HG38
+
+    'prevail_cu_cfrna_42': HG38
+
+    'prevail_cu_cfrna_43': HG38
+
+    'prevail_cu_cfrna_44': HG38
+
+    'prevail_cu_cfrna_45': HG38
+
+    'prevail_cu_cfrna_46': HG38
+
+    'prevail_cu_cfrna_47': HG38
+
+    'prevail_cu_cfrna_48': HG38
+
+    'prevail_cu_cfrna_49': HG38
+
+    'prevail_cu_cfrna_5': HG38
+
+    'prevail_cu_cfrna_50': HG38
+
+    'prevail_cu_cfrna_51': HG38
+
+    'prevail_cu_cfrna_52': HG38
+
+    'prevail_cu_cfrna_53': HG38
+
+    'prevail_cu_cfrna_54': HG38
+
+    'prevail_cu_cfrna_55': HG38
+
+    'prevail_cu_cfrna_56': HG38
+
+    'prevail_cu_cfrna_57': HG38
+
+    'prevail_cu_cfrna_58': HG38
+
+    'prevail_cu_cfrna_59': HG38
+
+    'prevail_cu_cfrna_6': HG38
+
+    'prevail_cu_cfrna_60': HG38
+
+    'prevail_cu_cfrna_61': HG38
+
+    'prevail_cu_cfrna_62': HG38
+
+    'prevail_cu_cfrna_63': HG38
+
+    'prevail_cu_cfrna_64': HG38
+
+    'prevail_cu_cfrna_65': HG38
+
+    'prevail_cu_cfrna_66': HG38
+
+    'prevail_cu_cfrna_67': HG38
+
+    'prevail_cu_cfrna_68': HG38
+
+    'prevail_cu_cfrna_69': HG38
+
+    'prevail_cu_cfrna_7': HG38
+
+    'prevail_cu_cfrna_70': HG38
+
+    'prevail_cu_cfrna_71': HG38
+
+    'prevail_cu_cfrna_72': HG38
+
+    'prevail_cu_cfrna_73': HG38
+
+    'prevail_cu_cfrna_74': HG38
+
+    'prevail_cu_cfrna_75': HG38
+
+    'prevail_cu_cfrna_76': HG38
+
+    'prevail_cu_cfrna_77': HG38
+
+    'prevail_cu_cfrna_78': HG38
+
+    'prevail_cu_cfrna_79': HG38
+
+    'prevail_cu_cfrna_8': HG38
+
+    'prevail_cu_cfrna_80': HG38
+
+    'prevail_cu_cfrna_81': HG38
+
+    'prevail_cu_cfrna_82': HG38
+
+    'prevail_cu_cfrna_83': HG38
+
+    'prevail_cu_cfrna_84': HG38
+
+    'prevail_cu_cfrna_85': HG38
+
+    'prevail_cu_cfrna_86': HG38
+
+    'prevail_cu_cfrna_87': HG38
+
+    'prevail_cu_cfrna_88': HG38
+
+    'prevail_cu_cfrna_89': HG38
+
+    'prevail_cu_cfrna_9': HG38
+
+    'prevail_cu_cfrna_90': HG38
+
+    'prevail_cu_cfrna_91': HG38
+
+    'prevail_cu_cfrna_92': HG38
+
+    'prevail_cu_cfrna_93': HG38
+
+    'prevail_cu_cfrna_94': HG38
+
+    'prevail_cu_cfrna_95': HG38
+
+    'prevail_cu_cfrna_96': HG38
+
+    'prevail_cu_cfrna_97': HG38
+
+    'prevail_cu_cfrna_98': HG38
+
+    'prevail_cu_cfrna_99': HG38
+

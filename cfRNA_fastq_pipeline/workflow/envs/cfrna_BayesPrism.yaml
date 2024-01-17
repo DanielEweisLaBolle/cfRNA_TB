@@ -1,0 +1,7 @@
+name: BayesPrism
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.7.10
+  - r-base=4.1.1

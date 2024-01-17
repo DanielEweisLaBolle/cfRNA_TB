@@ -1,0 +1,8 @@
+SAMPLES: [short_10000]
+
+PROJECT: 
+    short_10000: MISC
+
+PREP: 
+    short_10000: SMARTer_pico_v2
+

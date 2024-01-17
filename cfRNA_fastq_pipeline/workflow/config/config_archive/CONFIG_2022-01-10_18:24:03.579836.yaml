@@ -1,0 +1,11 @@
+SAMPLES: ['205410876']
+
+PROJECT: 
+    '205410876': MISC
+
+PREP: 
+    '205410876': SMARTer_pico_v2
+
+REF_DICT: 
+    '205410876': HG38
+

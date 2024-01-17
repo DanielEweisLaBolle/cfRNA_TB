@@ -1,0 +1,76 @@
+import pandas as pd
+
+
+##----------------------------------
+# LOAD IN CONFIG FILES
+configfile: "workflow/config/main.yaml" 
+
+sample_information  = pd.read_csv("sequencing_prep.tsv", index_col = 0, sep = "\t")
+    
+def get_project(sample): return(sample_information.loc[sample, "project_id"])
+def get_fastq_path(sample): return(sample_information.loc[sample, "path"])
+
+
+##----------------------------------
+# LOAD UNIVERSAL VARIABLES
+GENOME_REF = "HG38"
+
+MPATH = config["MASTER_PATH"]
+
+OUTPUT = config["OUTPUT"]
+
+SAMPLES = sample_information.index.values
+print(SAMPLES)
+
+PROJECTS = list(set([get_project(s) for s in SAMPLES]))
+print(PROJECTS)
+
+samplesInProjects = {}
+for p in PROJECTS:
+    samplesInProjects[p] = sample_information.loc[sample_information.project_id == p].index.tolist()
+    
+
+##----------------------------------
+# THREADS
+TRIM_THREADS = 10
+ALIGN_THREADS = 10
+DEDUP_THREADS = 5
+FCOUNT_THREADS = 1
+QC_THREADS = 2
+DECON_THREADS = 5
+
+
+##----------------------------------
+# ALIGNMENT
+rule all:
+    input:
+        # input fastqs
+        [ '{sample_location}{sample}_R1.fastq.gz'.format(sample = sample, sample_location = get_fastq_path(sample)) for sample in SAMPLES],
+        # various feature counting
+        [ OUTPUT + '{project}/sample_output/{sample}/{sample}_feature_counts.txt'.format(sample = sample, project = get_project(sample)) for sample in SAMPLES],
+        [ OUTPUT + '{project}/sample_output/{sample}/{sample}_BIOTYPES.txt'.format(sample = sample, project = get_project(sample)) for sample in SAMPLES],        
+        [ OUTPUT + '{project}/sample_output/{sample}/{sample}_feature_counts.UTAR.txt'.format(sample = sample, project = get_project(sample)) for sample in SAMPLES],
+        # mapping stats
+        [ OUTPUT + '{project}/sample_output/{sample}/{sample}_mapping_stats.tsv'.format(sample = sample, project = get_project(sample)) for sample in SAMPLES],
+        # deconvolution
+        [ OUTPUT + '{project}/sample_output/{sample}/{sample}_BP_celltypes.tsv'.format(sample = sample, project = get_project(sample)) for sample in SAMPLES],
+        [ OUTPUT + '{project}/sample_output/{sample}/{sample}_BP_celltypes.protein_coding.tsv'.format(sample = sample, project = get_project(sample)) for sample in SAMPLES],
+        # metagenomic analysis
+        [ OUTPUT+"{project}/sample_output/{sample}/{sample}.bracken.extended".format(sample = sample, project = get_project(sample)) for sample in SAMPLES],
+
+        # aggregated outputs
+        expand( OUTPUT + '{project}/{project}_feature_counts.tsv', project = PROJECTS),
+        expand( OUTPUT + '{project}/{project}_biotypes.tsv', project = PROJECTS),
+        expand( OUTPUT + '{project}/{project}_BP_celltypes.tsv', project = PROJECTS),
+        expand( OUTPUT + '{project}/{project}_BP_celltypes.protein_coding.tsv', project = PROJECTS),
+        expand( OUTPUT + '{project}/{project}_BP_celltypes.protein_coding.marker_genes.tsv', project = PROJECTS),
+        expand( OUTPUT+'{project}/{project}_mapping_stats.tsv', project = PROJECTS)
+        
+
+##----------------------------------            
+# RULE FILES 
+include: 'workflow/rules/align_and_count.smk'
+include: 'workflow/rules/deconvolution.smk'
+include: 'workflow/rules/QC.smk'
+include: 'workflow/rules/metagenome-kraken.smk'
+include: 'workflow/rules/aggregate_outputs.smk'

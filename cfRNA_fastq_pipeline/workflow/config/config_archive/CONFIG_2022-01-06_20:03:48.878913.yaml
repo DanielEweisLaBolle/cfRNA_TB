@@ -1,0 +1,29 @@
+SAMPLES: ['PTCOV115','205410827','10002','CNH024']
+
+PROJECT: 
+    'PTCOV115': MISC
+
+    '205410827': MISC
+
+    '10002': MISC
+
+    'CNH024': MISC
+
+PREP: 
+    'PTCOV115': SMARTer_pico_v2
+
+    '205410827': SMARTer_pico_v2
+
+    '10002': SMARTer_pico_v2
+
+    'CNH024': SMARTer_pico_v2
+
+REF_DICT: 
+    'PTCOV115': HG38
+
+    '205410827': HG38
+
+    '10002': HG38
+
+    'CNH024': HG38
+

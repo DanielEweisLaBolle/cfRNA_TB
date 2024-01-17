@@ -1,0 +1,317 @@
+SAMPLES: ['GHL7','GHL9','GHL13','GHL16','GHL17','GHL19','CON1103','GHL22','GHL27','GHL34','GHL36','CON1108','GHL46','GHL53','GHL58','CON1110','GHL61','GHL62','GHL69','GHL71','CON1115','GHL75','GHL76','GHL84','GHL88','GHL99','CON1117','GHL105','GHL109','GHL114','GHL117','GHL119','GHL124','GHL126','GHL128','GHL132','CON1118','GHL138','GHL161','GHL170','GHL172','GHL186','GHL188','GHL192','GHL201','GHL204','CON1122','GHL206','GHL208','GHL217','GHL229','CON1129']
+
+PROJECT: 
+    'GHL7': MTb
+
+    'GHL9': MTb
+
+    'GHL13': MTb
+
+    'GHL16': MTb
+
+    'GHL17': MTb
+
+    'GHL19': MTb
+
+    'CON1103': MTb
+
+    'GHL22': MTb
+
+    'GHL27': MTb
+
+    'GHL34': MTb
+
+    'GHL36': MTb
+
+    'CON1108': MTb
+
+    'GHL46': MTb
+
+    'GHL53': MTb
+
+    'GHL58': MTb
+
+    'CON1110': MTb
+
+    'GHL61': MTb
+
+    'GHL62': MTb
+
+    'GHL69': MTb
+
+    'GHL71': MTb
+
+    'CON1115': MTb
+
+    'GHL75': MTb
+
+    'GHL76': MTb
+
+    'GHL84': MTb
+
+    'GHL88': MTb
+
+    'GHL99': MTb
+
+    'CON1117': MTb
+
+    'GHL105': MTb
+
+    'GHL109': MTb
+
+    'GHL114': MTb
+
+    'GHL117': MTb
+
+    'GHL119': MTb
+
+    'GHL124': MTb
+
+    'GHL126': MTb
+
+    'GHL128': MTb
+
+    'GHL132': MTb
+
+    'CON1118': MTb
+
+    'GHL138': MTb
+
+    'GHL161': MTb
+
+    'GHL170': MTb
+
+    'GHL172': MTb
+
+    'GHL186': MTb
+
+    'GHL188': MTb
+
+    'GHL192': MTb
+
+    'GHL201': MTb
+
+    'GHL204': MTb
+
+    'CON1122': MTb
+
+    'GHL206': MTb
+
+    'GHL208': MTb
+
+    'GHL217': MTb
+
+    'GHL229': MTb
+
+    'CON1129': MTb
+
+PREP: 
+    'GHL7': SMARTer_pico_v3
+
+    'GHL9': SMARTer_pico_v3
+
+    'GHL13': SMARTer_pico_v3
+
+    'GHL16': SMARTer_pico_v3
+
+    'GHL17': SMARTer_pico_v3
+
+    'GHL19': SMARTer_pico_v3
+
+    'CON1103': SMARTer_pico_v3
+
+    'GHL22': SMARTer_pico_v3
+
+    'GHL27': SMARTer_pico_v3
+
+    'GHL34': SMARTer_pico_v3
+
+    'GHL36': SMARTer_pico_v3
+
+    'CON1108': SMARTer_pico_v3
+
+    'GHL46': SMARTer_pico_v3
+
+    'GHL53': SMARTer_pico_v3
+
+    'GHL58': SMARTer_pico_v3
+
+    'CON1110': SMARTer_pico_v3
+
+    'GHL61': SMARTer_pico_v3
+
+    'GHL62': SMARTer_pico_v3
+
+    'GHL69': SMARTer_pico_v3
+
+    'GHL71': SMARTer_pico_v3
+
+    'CON1115': SMARTer_pico_v3
+
+    'GHL75': SMARTer_pico_v3
+
+    'GHL76': SMARTer_pico_v3
+
+    'GHL84': SMARTer_pico_v3
+
+    'GHL88': SMARTer_pico_v3
+
+    'GHL99': SMARTer_pico_v3
+
+    'CON1117': SMARTer_pico_v3
+
+    'GHL105': SMARTer_pico_v3
+
+    'GHL109': SMARTer_pico_v3
+
+    'GHL114': SMARTer_pico_v3
+
+    'GHL117': SMARTer_pico_v3
+
+    'GHL119': SMARTer_pico_v3
+
+    'GHL124': SMARTer_pico_v3
+
+    'GHL126': SMARTer_pico_v3
+
+    'GHL128': SMARTer_pico_v3
+
+    'GHL132': SMARTer_pico_v3
+
+    'CON1118': SMARTer_pico_v3
+
+    'GHL138': SMARTer_pico_v3
+
+    'GHL161': SMARTer_pico_v3
+
+    'GHL170': SMARTer_pico_v3
+
+    'GHL172': SMARTer_pico_v3
+
+    'GHL186': SMARTer_pico_v3
+
+    'GHL188': SMARTer_pico_v3
+
+    'GHL192': SMARTer_pico_v3
+
+    'GHL201': SMARTer_pico_v3
+
+    'GHL204': SMARTer_pico_v3
+
+    'CON1122': SMARTer_pico_v3
+
+    'GHL206': SMARTer_pico_v3
+
+    'GHL208': SMARTer_pico_v3
+
+    'GHL217': SMARTer_pico_v3
+
+    'GHL229': SMARTer_pico_v3
+
+    'CON1129': SMARTer_pico_v3
+
+REF_DICT: 
+    'GHL7': HG38
+
+    'GHL9': HG38
+
+    'GHL13': HG38
+
+    'GHL16': HG38
+
+    'GHL17': HG38
+
+    'GHL19': HG38
+
+    'CON1103': HG38
+
+    'GHL22': HG38
+
+    'GHL27': HG38
+
+    'GHL34': HG38
+
+    'GHL36': HG38
+
+    'CON1108': HG38
+
+    'GHL46': HG38
+
+    'GHL53': HG38
+
+    'GHL58': HG38
+
+    'CON1110': HG38
+
+    'GHL61': HG38
+
+    'GHL62': HG38
+
+    'GHL69': HG38
+
+    'GHL71': HG38
+
+    'CON1115': HG38
+
+    'GHL75': HG38
+
+    'GHL76': HG38
+
+    'GHL84': HG38
+
+    'GHL88': HG38
+
+    'GHL99': HG38
+
+    'CON1117': HG38
+
+    'GHL105': HG38
+
+    'GHL109': HG38
+
+    'GHL114': HG38
+
+    'GHL117': HG38
+
+    'GHL119': HG38
+
+    'GHL124': HG38
+
+    'GHL126': HG38
+
+    'GHL128': HG38
+
+    'GHL132': HG38
+
+    'CON1118': HG38
+
+    'GHL138': HG38
+
+    'GHL161': HG38
+
+    'GHL170': HG38
+
+    'GHL172': HG38
+
+    'GHL186': HG38
+
+    'GHL188': HG38
+
+    'GHL192': HG38
+
+    'GHL201': HG38
+
+    'GHL204': HG38
+
+    'CON1122': HG38
+
+    'GHL206': HG38
+
+    'GHL208': HG38
+
+    'GHL217': HG38
+
+    'GHL229': HG38
+
+    'CON1129': HG38
+
